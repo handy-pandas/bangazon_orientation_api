@@ -9,4 +9,4 @@
 4. What files will be created or edited (where, file path):
 5. Potential Impact on the Project (possible conflicts with other features, hierarchy of feature completion):
 6. Estimated time of completion:
-7. Actual time of completion (added when moved to Done column):
+7. Actual time of completion (added as a comment when moved to Done column):
