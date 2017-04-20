@@ -5,3 +5,4 @@
 3. Description of the feature (What, why, when, how):
 4. What files will be created or edited (where, file path):
 5. Potential Impact on the Project (possible conflicts with other features, hierarchy of feature completion):
+6. Estimated time of completion: 
