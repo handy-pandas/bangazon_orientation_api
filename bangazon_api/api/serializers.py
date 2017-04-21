@@ -2,6 +2,8 @@ from django.contrib.auth.models import User, Group
 from rest_framework import serializers
 from api.models import *
 
+from api_database_management.user_interface.create_models import Create_Models
+
 
 class UserSerializer(serializers.HyperlinkedModelSerializer):
     '''
@@ -31,3 +33,4 @@ class GroupSerializer(serializers.HyperlinkedModelSerializer):
         '''
         model = Group
         fields = ('url', 'name')
+
