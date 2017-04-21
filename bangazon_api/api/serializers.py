@@ -33,3 +33,17 @@ class GroupSerializer(serializers.HyperlinkedModelSerializer):
         model = Group
         fields = ('url', 'name')
 
+class OrdersSerializer(serializers.HyperlinkedModelSerializer):
+    '''
+    Class included in REST framework setup.
+
+    Arguments:
+    A hyperlink.
+    '''
+    class Meta:
+        '''
+        Defines what fields are exposed to the api from the model.
+        '''
+        model = Create_Models.order
+        fields = ('url', 'name')        
+
