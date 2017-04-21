@@ -60,6 +60,7 @@ No additional resources required.
 
 * **William Caldwell** - [wocaldwell](https://github.com/wocaldwell)
 * **Taylor Perkins** - [taylorperkins](https://github.com/taylorperkins)
+* **Aaron Barfoot** - [barfootaaron](https://github.com/barfootaaron)
 
 
 ## Acknowledgments
