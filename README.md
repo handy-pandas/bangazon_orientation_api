@@ -59,6 +59,7 @@ No additional resources required.
 ## Authors
 
 * **William Caldwell** - [wocaldwell](https://github.com/wocaldwell)
+* **Taylor Perkins** - [wocaldwell](https://github.com/taylorperkins)
 
 
 ## Acknowledgments
