@@ -23,6 +23,8 @@ class Product(models.Model):
 
 	Author: [Aaron Barfoot]
 	"""
+	CategoryId = models.IntegerField
+	CustomerId = models.IntegerField
 	# CategoryId = models.ForeignKey(ProductType)
 	# CustomerId = models.ForeignKey(Customer)
 	Title = models.CharField(max_length=55)
