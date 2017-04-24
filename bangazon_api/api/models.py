@@ -58,7 +58,6 @@ class Computer(models.Model):
 
     Author: James Tonkin
     """
-    # EmployeeId = models.ForeignKey(Employee)
-    EmployeeId = models.IntegerField()
+    EmployeeId = models.ForeignKey(Employee)
     PurchaseDate = models.DateField(max_length=20)
     DecomDate = models.DateField(max_length=20)
