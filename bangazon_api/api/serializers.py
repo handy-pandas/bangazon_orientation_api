@@ -36,8 +36,9 @@ class GroupSerializer(serializers.HyperlinkedModelSerializer):
 class CustomerSerializer(serializers.HyperlinkedModelSerializer):
     '''
     Class included in REST framework setup.
+    Author: [Talbot Lawrence]
 
-    Arguments: FirstName, LastName, JoinDate, InactiveDate, Inactive
+    Arguments: 
     A hyperlink.
     '''
     class Meta:
