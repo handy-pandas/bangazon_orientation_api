@@ -65,9 +65,9 @@ class ProductTypeSerializer(serializers.HyperlinkedModelSerializer):
 
 class ProductSerializer(serializers.HyperlinkedModelSerializer):
     '''
-    Serializer class for Product table
+    Class to expose Product table to the API
 
-    Arguments:
+    Arguments: CategoryId, CustomerId, Title, Description, Price
 
     Author: [Aaron Barfoot]
 
