@@ -7,6 +7,9 @@ class PaymentType(models.Model):
 
     Arguments:
     A model provided by django framework.
+
+    Author:
+    wocaldwell
     '''
     AccountNumber = models.IntegerField(max_length=99)
     Name = models.CharField(max_length=255)

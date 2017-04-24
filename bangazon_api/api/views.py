@@ -1,7 +1,8 @@
 from django.contrib.auth.models import User, Group
 from rest_framework import viewsets
 from bangazon_api.api.serializers import *
-from bangazon_api.api.api_database_management.user_interface.create_models import *
+from bangazon_api.api.models import *
+
 
 
 class UserViewSet(viewsets.ModelViewSet):
@@ -22,6 +23,9 @@ class GroupViewSet(viewsets.ModelViewSet):
 class PaymentTypeViewSet(viewsets.ModelViewSet):
     """
     API endpoint that allows product types to be viewed or edited.
+
+    Author:
+    wocaldwell
     """
     queryset = PaymentType.objects.all()
     serializer_class = PaymentTypeSerializer
