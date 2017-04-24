@@ -49,7 +49,7 @@ class PaymentTypeViewSet(viewsets.ModelViewSet):
     queryset = PaymentType.objects.all()
     serializer_class = PaymentTypeSerializer
 
-    
+
 class ProductViewSet(viewsets.ModelViewSet):
     """
     API endpoint that allows products to be viewed or edited.
@@ -59,3 +59,12 @@ class ProductViewSet(viewsets.ModelViewSet):
     queryset = Product.objects.all()
     serializer_class = ProductSerializer
 
+
+class ComputerViewSet(viewsets.ModelViewSet):
+    """
+    API endpoint that allows computers to be viewed or edited.
+
+    Author: James Tonkin
+    """
+    queryset = Computer.objects.all()
+    serializer_class = ComputerSerializer

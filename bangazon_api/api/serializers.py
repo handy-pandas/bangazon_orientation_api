@@ -49,7 +49,7 @@ class CustomerSerializer(serializers.HyperlinkedModelSerializer):
         '''
 
         model = Customer
-        fields = ('FirstName', 'LastName', 'JoinDate', 'InactiveDate', 'Inactive')        
+        fields = ('FirstName', 'LastName', 'JoinDate', 'InactiveDate', 'Inactive')
 
 
 class ProductTypeSerializer(serializers.HyperlinkedModelSerializer):
@@ -84,7 +84,7 @@ class PaymentTypeSerializer(serializers.HyperlinkedModelSerializer):
 
         model = PaymentType
         fields = ('url', 'Name', 'AccountNumber', 'CustomerId')
-      
+
 
 class ProductSerializer(serializers.HyperlinkedModelSerializer):
     '''
@@ -102,4 +102,18 @@ class ProductSerializer(serializers.HyperlinkedModelSerializer):
         model = Product
         fields = ('CategoryId', 'CustomerId', 'Title', 'Description', 'Price')
 
+class ComputerSerializer(serializers.HyperlinkedModelSerializer):
+    '''
+    Class to expose the computers table to the API.
 
+    Arguments:
+    A hyperlink.
+
+    Author: James Tonkin
+    '''
+    class Meta:
+        '''
+        Defines what fields are exposed to the api from the computers model.
+        '''
+        model = Computer
+        fields = ('url', 'EmployeeId', 'PurchaseDate', 'DecomDate')

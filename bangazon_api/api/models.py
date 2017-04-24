@@ -39,7 +39,7 @@ class PaymentType(models.Model):
     Name = models.CharField(max_length=255)
     CustomerId = models.ForeignKey(Customer)
 
-    
+
 class Product(models.Model):
 	"""Class for adding product table to the database
 
@@ -51,4 +51,13 @@ class Product(models.Model):
 	CustomerId = models.ForeignKey(Customer)
 	Title = models.CharField(max_length=55)
 	Description = models.CharField(max_length=150)
-	Price = models.DecimalField(max_digits=6, decimal_places=2) 
+	Price = models.DecimalField(max_digits=6, decimal_places=2)
+
+class Computer(models.Model):
+    """ Class to expose the computers to the API.
+
+    Author: James Tonkin
+    """
+    EmployeeId = models.ForeignKey(Employee)
+    PurchaseDate = models.DateField(max_length=20)
+    DecomDate = models.DateField(max_length=20)
