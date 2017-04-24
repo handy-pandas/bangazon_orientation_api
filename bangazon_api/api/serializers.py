@@ -1,7 +1,6 @@
 from django.contrib.auth.models import User, Group
 from rest_framework import serializers
-
-from api_database_management.user_interface.create_models import Create_Models
+from bangazon_api.api.models import *
 
 
 class UserSerializer(serializers.HyperlinkedModelSerializer):
@@ -32,4 +31,20 @@ class GroupSerializer(serializers.HyperlinkedModelSerializer):
         '''
         model = Group
         fields = ('url', 'name')
+
+
+class ProductSerializer(serializers.HyperlinkedModelSerializer):
+    '''
+    Serializer class for Product table
+
+    Arguments:
+    A hyperlink.
+    '''
+    class Meta:
+        '''
+        Defines what fields are exposed to the api from the model.
+        '''
+        model = Product
+        fields = ('CategoryId', 'CustomerId', 'Title', 'Description', 'Price')  
+
 
