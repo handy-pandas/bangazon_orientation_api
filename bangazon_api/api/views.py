@@ -23,6 +23,6 @@ class OrderViewSet(viewsets.ModelViewSet):
     """
     API endpoint that allows orders to be viewed or edited.
     """
-    queryset = Orders.objects.all()
+    queryset = Order.objects.all()
     serializer_class = OrderSerializer
 

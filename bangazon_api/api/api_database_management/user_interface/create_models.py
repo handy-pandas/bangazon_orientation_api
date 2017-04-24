@@ -8,8 +8,8 @@ class Order(models.Model):
         PaymentTypeId (INT): Payment Type Id referencing Payment Type table (FK)
         CustomerId (INT): Customer Id referencing Customer table (FK)
     """
-    # PaymentTypeId = models.ForeignKey(PaymentType)    
-    # CustomerId = models.ForeignKey(Customer)    
+    PaymentTypeId = models.ForeignKey(PaymentType)    
+    CustomerId = models.ForeignKey(Customer)    
     Orders = models.CharField(max_length=40)
 
 class ProductOrder(models.Model):
@@ -20,6 +20,6 @@ class ProductOrder(models.Model):
         ProductId (INT): Product Id referencing Product table (FK)
         OrderId (INT): Order Id referencing Order table (FK)
     """
-    # ProductId = models.ForeignKey(Product)    
-    # OrderId = models.ForeignKey(Order)        
+    ProductId = models.ForeignKey(Product)    
+    OrderId = models.ForeignKey(Order)        
 
