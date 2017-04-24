@@ -61,12 +61,9 @@ class ProductViewSet(viewsets.ModelViewSet):
 
 
 class TrainingViewSet(viewsets.ModelViewSet):
-     """
-    API endpoint that allows training programs to be viewed or edited.
-
+    """
+    API endpoint that allows training progeams to be viewed or edited.
     Author: Aaron Barfoot
     """
     queryset = Training.objects.all()
     serializer_class = TrainingSerializer
-
-

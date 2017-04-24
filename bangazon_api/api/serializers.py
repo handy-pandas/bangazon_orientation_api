@@ -117,5 +117,5 @@ class TrainingSerializer(serializers.HyperlinkedModelSerializer):
         '''
 
         model = Training
-        fields('Title', 'StartDate', 'EndDate', 'Max')
+        fields = ('Title', 'StartDate', 'EndDate', 'Max')
 

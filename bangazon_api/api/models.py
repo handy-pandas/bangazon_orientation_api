@@ -65,7 +65,7 @@ class Training(models.Model):
 	Title = models.CharField(max_length=55)
 	StartDate = models.DateField(max_length=10)
 	EndDate = models.DateField(max_length=10)
-	Max = models.IntegerField(max_length=5)
+	Max = models.IntegerField()
 
 
 
