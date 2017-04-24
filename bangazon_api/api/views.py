@@ -1,8 +1,7 @@
-from django.contrib.auth.models import User, Group
+from django.contrib.auth.models import *
 from rest_framework import viewsets
 from bangazon_api.api.serializers import *
 from bangazon_api.api.models import *
-
 
 
 class UserViewSet(viewsets.ModelViewSet):
@@ -20,6 +19,15 @@ class GroupViewSet(viewsets.ModelViewSet):
     queryset = Group.objects.all()
     serializer_class = GroupSerializer
 
+
+class CustomerViewSet(viewsets.ModelViewSet):
+    """
+    API endpoint that allows Create Model to be viewed or edited.
+    """
+    queryset = Customer.objects.all()
+    serializer_class = CustomerSerializer
+
+
 class PaymentTypeViewSet(viewsets.ModelViewSet):
     """
     API endpoint that allows product types to be viewed or edited.
@@ -29,4 +37,6 @@ class PaymentTypeViewSet(viewsets.ModelViewSet):
     """
     queryset = PaymentType.objects.all()
     serializer_class = PaymentTypeSerializer
+
+
 
