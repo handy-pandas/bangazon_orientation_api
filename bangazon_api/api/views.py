@@ -19,6 +19,7 @@ class GroupViewSet(viewsets.ModelViewSet):
     queryset = Group.objects.all()
     serializer_class = GroupSerializer
 
+
 class CustomerViewSet(viewsets.ModelViewSet):
     """
     API endpoint that allows Create Model to be viewed or edited.
@@ -34,3 +35,14 @@ class ProductTypeViewSet(viewsets.ModelViewSet):
     """
     queryset = ProductType.objects.all()
     serializer_class = ProductTypeSerializer
+
+class PaymentTypeViewSet(viewsets.ModelViewSet):
+    """
+    API endpoint that allows product types to be viewed or edited.
+
+    Author:
+    wocaldwell
+    """
+    queryset = PaymentType.objects.all()
+    serializer_class = PaymentTypeSerializer
+
