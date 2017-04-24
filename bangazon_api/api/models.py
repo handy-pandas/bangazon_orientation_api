@@ -6,7 +6,7 @@ from django.db import models
 class Customer(models.Model):
     """Class designed for creating customers within database
 
-    Methods: 
+    Methods:
 
     Author: [Talbot Lawrence]
     """
@@ -15,6 +15,13 @@ class Customer(models.Model):
     JoinDate = models.DateField(max_length=20)
     InactiveDate = models.DateField(max_length=20)
     Inactive = models.IntegerField()
+
+class ProductType(models.Model):
+    """ Class to expose the product types to the API.
+
+    Author: James Tonkin
+    """
+    name = models.CharField(max_length=255)
 
 class Product(models.Model):
 	"""Class for adding product table to the database
@@ -30,3 +37,6 @@ class Product(models.Model):
 	Title = models.CharField(max_length=55)
 	Description = models.CharField(max_length=150)
 	Price = models.DecimalField(max_digits=6, decimal_places=2)    
+
+
+
