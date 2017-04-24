@@ -14,6 +14,13 @@ class Customer(models.Model):
     InactiveDate = models.DateField(max_length=20)
     Inactive = models.IntegerField()
 
+class ProductType(models.Model):
+    """ Class to expose the product types to the API.
+
+    Author: James Tonkin
+    """
+    name = models.CharField(max_length=255)
+
 class PaymentType(models.Model):
     '''
     A class that adds a PaymentType table to the database.
@@ -26,7 +33,4 @@ class PaymentType(models.Model):
     '''
     AccountNumber = models.IntegerField()
     Name = models.CharField(max_length=255)
-    # CustomerId = models.ForeignKey(CustomerId)
-    CustomerId = models.CharField(max_length=99)
-
-
+    CustomerId = models.ForeignKey(CustomerId)
