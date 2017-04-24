@@ -39,13 +39,23 @@ class ProductTypeViewSet(viewsets.ModelViewSet):
     serializer_class = ProductTypeSerializer
 
 
+class PaymentTypeViewSet(viewsets.ModelViewSet):
+    """
+    API endpoint that allows product types to be viewed or edited.
+
+    Author:
+    wocaldwell
+    """
+    queryset = PaymentType.objects.all()
+    serializer_class = PaymentTypeSerializer
+
+    
 class ProductViewSet(viewsets.ModelViewSet):
     """
     API endpoint that allows products to be viewed or edited.
 
-    Author: [Aaron Barfoot]
+    Author: Aaron Barfoot
     """
     queryset = Product.objects.all()
     serializer_class = ProductSerializer
-
 

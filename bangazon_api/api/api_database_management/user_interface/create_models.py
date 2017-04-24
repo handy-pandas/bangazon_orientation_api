@@ -1,9 +1,25 @@
 from django.db import models
 
+
+class PaymentType(models.Model):
+    '''
+    A class that adds a PaymentType table to the database.
+
 class Customer(models.Model):
     """Class designed for creating customers within database
 
-    Methods: 
+
+    Arguments:
+    A model provided by django framework.
+
+    Author:
+    wocaldwell
+    '''
+    AccountNumber = models.IntegerField(max_length=99)
+    Name = models.CharField(max_length=255)
+    # CustomerId = models.ForeignKey(CustomerId)
+    CustomerId = models.CharField(max_length=99)
+
 
     Author: [Talbot Lawrence]
     """
@@ -20,3 +36,4 @@ class Product(models.Model):
 	Title = models.CharField(max_length=55)
 	Description = models.CharField(max_length=150)
 	Price = models.DecimalField(max_digits=6, decimal_places=2)
+

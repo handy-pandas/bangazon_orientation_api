@@ -33,16 +33,21 @@ class GroupSerializer(serializers.HyperlinkedModelSerializer):
         model = Group
         fields = ('url', 'name')
 
+
 class CustomerSerializer(serializers.HyperlinkedModelSerializer):
     '''
     Class included in REST framework setup.
+
     Arguments: FirstName, LastName, JoinDate, InactiveDate, Inactive
+
     A hyperlink.
     '''
+
     class Meta:
         '''
         Defines what fields are exposed to the api from the model.
         '''
+
         model = Customer
         fields = ('FirstName', 'LastName', 'JoinDate', 'InactiveDate', 'Inactive')        
 
@@ -63,23 +68,38 @@ class ProductTypeSerializer(serializers.HyperlinkedModelSerializer):
         model = ProductType
         fields = ('url', 'name')
 
+
+class PaymentTypeSerializer(serializers.HyperlinkedModelSerializer):
+    '''
+    Class to serialize a payment type table in the API.
+    Arguments:
+    A hyperlink.
+    Author:
+    wocaldwell
+    '''
+    class Meta:
+        '''
+        Defines what fields are exposed to the api from the model.
+        '''
+
+        model = PaymentType
+        fields = ('url', 'Name', 'AccountNumber', 'CustomerId')
+      
+
 class ProductSerializer(serializers.HyperlinkedModelSerializer):
     '''
     Class to expose Product table to the API
 
     Arguments: CategoryId, CustomerId, Title, Description, Price
 
-    Author: [Aaron Barfoot]
-
+    Author: Aaron Barfoot
     '''
     class Meta:
         '''
         Defines what fields are exposed to the api from the model.
         '''
+
         model = Product
-        fields = ('CategoryId', 'CustomerId', 'Title', 'Description', 'Price')  
-
-
-
+        fields = ('CategoryId', 'CustomerId', 'Title', 'Description', 'Price')
 
 
