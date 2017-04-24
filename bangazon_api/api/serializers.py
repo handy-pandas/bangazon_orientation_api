@@ -1,8 +1,7 @@
 from django.contrib.auth.models import *
 from rest_framework import serializers
-#bangazon_api/api/api_database_management/user_interface
-
-from bangazon_api.api.api_database_management.user_interface.create_models import *
+from django.db import models
+from bangazon_api.api.models import *
 
 
 class UserSerializer(serializers.HyperlinkedModelSerializer):
