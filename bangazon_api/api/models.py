@@ -1,7 +1,5 @@
 from django.db import models
 
-# Create your models here.
-
 
 class Customer(models.Model):
     """Class designed for creating customers within database
@@ -39,7 +37,7 @@ class PaymentType(models.Model):
     Name = models.CharField(max_length=255)
     CustomerId = models.ForeignKey(Customer)
 
-    
+
 class Product(models.Model):
 	"""Class for adding product table to the database
 
@@ -51,4 +49,14 @@ class Product(models.Model):
 	CustomerId = models.ForeignKey(Customer)
 	Title = models.CharField(max_length=55)
 	Description = models.CharField(max_length=150)
-	Price = models.DecimalField(max_digits=6, decimal_places=2) 
+	Price = models.DecimalField(max_digits=6, decimal_places=2)
+
+class Department(models.Model):
+    """
+    Class for adding product table to the database
+
+    Author:
+    wocaldwell
+    """
+    Name = models.CharField(max_length=55)
+    Budget = models.DecimalField(max_digits=6, decimal_places=2)

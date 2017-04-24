@@ -49,7 +49,7 @@ class PaymentTypeViewSet(viewsets.ModelViewSet):
     queryset = PaymentType.objects.all()
     serializer_class = PaymentTypeSerializer
 
-    
+
 class ProductViewSet(viewsets.ModelViewSet):
     """
     API endpoint that allows products to be viewed or edited.
@@ -58,4 +58,14 @@ class ProductViewSet(viewsets.ModelViewSet):
     """
     queryset = Product.objects.all()
     serializer_class = ProductSerializer
+
+class DepartmentViewSet(viewsets.ModelViewSet):
+    """
+    API endpoint that allows products to be viewed or edited.
+
+    Author:
+    wocaldwell
+    """
+    queryset = Department.objects.all()
+    serializer_class = DepartmentSerializer
 
