@@ -47,3 +47,19 @@ class CustomerSerializer(serializers.HyperlinkedModelSerializer):
         '''
         model = Customer
         fields = ('FirstName', 'LastName', 'JoinDate', 'InactiveDate', 'Inactive')
+
+class ProductTypeSerializer(serializers.HyperlinkedModelSerializer):
+    '''
+    Class to expose the ProductType table to the API.
+
+    Arguments:
+    A hyperlink.
+
+    Author: James Tonkin
+    '''
+    class Meta:
+        '''
+        Defines what fields are exposed to the api from the ProductType model.
+        '''
+        model = ProductType
+        fields = ('url', 'name')
