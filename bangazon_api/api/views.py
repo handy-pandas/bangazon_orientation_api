@@ -31,6 +31,8 @@ class CustomerViewSet(viewsets.ModelViewSet):
 class ProductViewSet(viewsets.ModelViewSet):
     """
     API endpoint that allows products to be viewed or edited.
+
+    Author: [Aaron Barfoot]
     """
     queryset = Product.objects.all()
     serializer_class = ProductSerializer

@@ -54,6 +54,8 @@ class ProductSerializer(serializers.HyperlinkedModelSerializer):
 
     Arguments:
 
+    Author: [Aaron Barfoot]
+
     '''
     class Meta:
         '''
