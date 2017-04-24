@@ -9,9 +9,8 @@ router.register(r'customer', views.CustomerViewSet)
 router.register(r'producttype', views.ProductTypeViewSet)
 router.register(r'paymenttype', views.PaymentTypeViewSet)
 router.register(r'product', views.ProductViewSet)
+router.register(r'order', views.OrderViewSet)
 router.register(r'department', views.DepartmentViewSet)
-
-
 
 # Wire up our API using automatic URL routing.
 # Additionally, we include login URLs for the browsable API.
