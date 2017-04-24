@@ -103,3 +103,19 @@ class ProductSerializer(serializers.HyperlinkedModelSerializer):
         fields = ('CategoryId', 'CustomerId', 'Title', 'Description', 'Price')
 
 
+class TrainingSerializer(serializers.HyperlinkedModelSerializer):
+    '''
+    Class to expose Training Programs to the API
+
+    Arguments: Title, StartDate, EndDate, Max
+
+    Author: Aaron Barfoot
+    '''
+    class Meta:
+        '''
+        Defines what fields are exposed to the api from the model.
+        '''
+
+        model = Training
+        fields('Title', 'StartDate', 'EndDate', 'Max')
+

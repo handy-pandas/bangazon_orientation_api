@@ -59,3 +59,14 @@ class ProductViewSet(viewsets.ModelViewSet):
     queryset = Product.objects.all()
     serializer_class = ProductSerializer
 
+
+class TrainingViewSet(viewsets.ModelViewSet):
+     """
+    API endpoint that allows training programs to be viewed or edited.
+
+    Author: Aaron Barfoot
+    """
+    queryset = Training.objects.all()
+    serializer_class = TrainingSerializer
+
+

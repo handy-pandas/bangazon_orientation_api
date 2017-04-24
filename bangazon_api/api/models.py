@@ -45,10 +45,33 @@ class Product(models.Model):
 
 	Methods:
 
-	Author: [Aaron Barfoot]
+	Author: Aaron Barfoot
 	"""
 	CategoryId = models.ForeignKey(ProductType)
 	CustomerId = models.ForeignKey(Customer)
 	Title = models.CharField(max_length=55)
 	Description = models.CharField(max_length=150)
 	Price = models.DecimalField(max_digits=6, decimal_places=2) 
+
+
+
+class Training(models.Model):
+	"""Class for adding training program to the database
+
+	Methods:
+
+	Author: Aaron Barfoot
+	"""
+	Title = models.CharField(max_length=55)
+	StartDate = models.DateField(max_length=10)
+	EndDate = models.DateField(max_length=10)
+	Max = models.IntegerField(max_length=5)
+
+
+
+
+
+
+
+
+
