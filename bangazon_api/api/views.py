@@ -28,7 +28,9 @@ class CustomerViewSet(viewsets.ModelViewSet):
 
 class ProductTypeViewSet(viewsets.ModelViewSet):
     """
-    API endpoint that allows Create Model to be viewed or edited.
+    API endpoint that allows product types to be viewed or edited.
+
+    Author: James Tonkin
     """
     queryset = ProductType.objects.all()
     serializer_class = ProductTypeSerializer
