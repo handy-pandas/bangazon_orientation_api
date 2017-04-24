@@ -6,9 +6,10 @@ from django.db import models
 class Customer(models.Model):
     """Class designed for creating customers within database
 
-    Methods:
+    Arguments:
+    A model provided by django framework.
 
-    Author: [Talbot Lawrence]
+    Author: Talbot Lawrence
     """
     FirstName = models.CharField(max_length=44)
     LastName = models.CharField(max_length=44)
@@ -52,3 +53,17 @@ class Product(models.Model):
 	Title = models.CharField(max_length=55)
 	Description = models.CharField(max_length=150)
 	Price = models.DecimalField(max_digits=6, decimal_places=2) 
+
+class Employee(models.Model):
+    """Class designed for creating employees within database
+
+    Arguments:
+    A model provided by django framework.
+
+    Author: [Talbot Lawrence]
+    """
+    FirstName = models.CharField(max_length=44)
+    LastName = models.CharField(max_length=44)
+    Title = models.CharField(max_length=44)
+    # DepartmentId = models.ForeignKey(Department)
+    Department = models.CharField(max_length=44)

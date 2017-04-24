@@ -59,3 +59,9 @@ class ProductViewSet(viewsets.ModelViewSet):
     queryset = Product.objects.all()
     serializer_class = ProductSerializer
 
+class EmployeeViewSet(viewsets.ModelViewSet):
+    """
+    API endpoint that allows Create Model to be viewed or edited.
+    """
+    queryset = Employee.objects.all()
+    serializer_class = EmployeeSerializer
