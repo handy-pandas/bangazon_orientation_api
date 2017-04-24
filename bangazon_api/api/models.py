@@ -33,4 +33,4 @@ class PaymentType(models.Model):
     '''
     AccountNumber = models.IntegerField()
     Name = models.CharField(max_length=255)
-    CustomerId = models.ForeignKey(CustomerId)
+    CustomerId = models.ForeignKey(Customer)
