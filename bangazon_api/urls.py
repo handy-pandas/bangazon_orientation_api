@@ -5,6 +5,10 @@ from bangazon_api.api import views
 router = routers.DefaultRouter()
 router.register(r'users', views.UserViewSet)
 router.register(r'groups', views.GroupViewSet)
+router.register(r'customer', views.CustomerViewSet)
+router.register(r'producttype', views.ProductTypeViewSet)
+router.register(r'paymenttype', views.PaymentTypeViewSet)
+router.register(r'product', views.ProductViewSet)
 router.register(r'order', views.OrderViewSet)
 
 # Wire up our API using automatic URL routing.

@@ -61,11 +61,8 @@ No additional resources required.
 * **William Caldwell** - [wocaldwell](https://github.com/wocaldwell)
 * **Taylor Perkins** - [taylorperkins](https://github.com/taylorperkins)
 * **Aaron Barfoot** - [barfootaaron](https://github.com/barfootaaron)
+* **Talbot Lawrence** - [talbotlawrence](https://github.com/talbotlawrence)
+* **James Tonkin** - [jamestonkin](https://github.com/jamestonkin)
 
 
 ## Acknowledgments
-
-
-
-
-
