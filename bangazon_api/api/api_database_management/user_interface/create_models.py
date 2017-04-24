@@ -5,11 +5,21 @@ class Order(models.Model):
         You need both PaymentType and Customer table for this to work correctly
 
     Attributes:
-        PaymentTypeId (INT): Payment Type Id referencing table (FK)
-        CustomerId (INT): Customer Id referencing table (FK)
+        PaymentTypeId (INT): Payment Type Id referencing Payment Type table (FK)
+        CustomerId (INT): Customer Id referencing Customer table (FK)
     """
-    PaymentTypeId = models.ForeignKey(PaymentType)    
-    CustomerId = models.ForeignKey(Customer)    
+    # PaymentTypeId = models.ForeignKey(PaymentType)    
+    # CustomerId = models.ForeignKey(Customer)    
+    Orders = models.CharField(max_length=40)
 
+class ProductOrder(models.Model):
+    """This class is a join table for both the Product and Order Table within Bangazon db
+        You will need both the Product and Order tables created for this table to apply
 
+    Attributes:
+        ProductId (INT): Product Id referencing Product table (FK)
+        OrderId (INT): Order Id referencing Order table (FK)
+    """
+    # ProductId = models.ForeignKey(Product)    
+    # OrderId = models.ForeignKey(Order)        
 
