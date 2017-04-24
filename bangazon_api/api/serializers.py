@@ -123,7 +123,7 @@ class DepartmentSerializer(serializers.HyperlinkedModelSerializer):
         Defines what fields are exposed to the api from the model.
         '''
 
-        model = Product
+        model = Department
         exclude = ()
 
 
