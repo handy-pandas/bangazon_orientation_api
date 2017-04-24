@@ -1,7 +1,8 @@
 from django.contrib.auth.models import *
 from rest_framework import viewsets
-from bangazon_api.api.serializers import *
 from bangazon_api.api.models import *
+from bangazon_api.api.serializers import *
+
 
 
 class UserViewSet(viewsets.ModelViewSet):
@@ -27,6 +28,7 @@ class CustomerViewSet(viewsets.ModelViewSet):
     queryset = Customer.objects.all()
     serializer_class = CustomerSerializer
 
+
 class ProductTypeViewSet(viewsets.ModelViewSet):
     """
     API endpoint that allows product types to be viewed or edited.
@@ -35,6 +37,7 @@ class ProductTypeViewSet(viewsets.ModelViewSet):
     """
     queryset = ProductType.objects.all()
     serializer_class = ProductTypeSerializer
+
 
 class PaymentTypeViewSet(viewsets.ModelViewSet):
     """
@@ -45,4 +48,14 @@ class PaymentTypeViewSet(viewsets.ModelViewSet):
     """
     queryset = PaymentType.objects.all()
     serializer_class = PaymentTypeSerializer
+
+    
+class ProductViewSet(viewsets.ModelViewSet):
+    """
+    API endpoint that allows products to be viewed or edited.
+
+    Author: Aaron Barfoot
+    """
+    queryset = Product.objects.all()
+    serializer_class = ProductSerializer
 
