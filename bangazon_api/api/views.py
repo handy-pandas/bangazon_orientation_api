@@ -3,8 +3,6 @@ from rest_framework import viewsets
 from bangazon_api.api.models import *
 from bangazon_api.api.serializers import *
 
-
-
 class UserViewSet(viewsets.ModelViewSet):
     """
     API endpoint that allows users to be viewed or edited.
@@ -19,7 +17,6 @@ class GroupViewSet(viewsets.ModelViewSet):
     """
     queryset = Group.objects.all()
     serializer_class = GroupSerializer
-
 
 class CustomerViewSet(viewsets.ModelViewSet):
     """
@@ -49,7 +46,7 @@ class PaymentTypeViewSet(viewsets.ModelViewSet):
     queryset = PaymentType.objects.all()
     serializer_class = PaymentTypeSerializer
 
-    
+
 class ProductViewSet(viewsets.ModelViewSet):
     """
     API endpoint that allows products to be viewed or edited.
@@ -58,6 +55,18 @@ class ProductViewSet(viewsets.ModelViewSet):
     """
     queryset = Product.objects.all()
     serializer_class = ProductSerializer
+
+
+
+class OrderViewSet(viewsets.ModelViewSet):
+    """
+    API endpoint that allows orders to be viewed or edited.
+
+    Author: Taylor Perkins
+    """
+    queryset = Order.objects.all()
+    serializer_class = OrderSerializer
+
 
 
 class TrainingViewSet(viewsets.ModelViewSet):
