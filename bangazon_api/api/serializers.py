@@ -38,8 +38,7 @@ class CustomerSerializer(serializers.HyperlinkedModelSerializer):
     '''
     Class included in REST framework setup.
 
-
-    Arguments: FirstName, LastName, JoinDate, InactiveDate, Inactive
+    Arguments:
     A hyperlink.
     '''
 
