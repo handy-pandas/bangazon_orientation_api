@@ -1,6 +1,5 @@
 from django.contrib.auth.models import *
 from rest_framework import serializers
-from django.db import models
 
 from bangazon_api.api.models import *
 
@@ -96,8 +95,8 @@ class ProductSerializer(serializers.HyperlinkedModelSerializer):
         '''
         Defines what fields are exposed to the api from the model.
         '''
-    model = Product
-    fields = ('CategoryId', 'CustomerId', 'Title', 'Description', 'Price')
+        model = Product
+        fields = ('CategoryId', 'CustomerId', 'Title', 'Description', 'Price')
 
 
 class OrderSerializer(serializers.HyperlinkedModelSerializer):
