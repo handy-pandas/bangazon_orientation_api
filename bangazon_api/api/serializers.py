@@ -1,7 +1,6 @@
 from django.contrib.auth.models import User, Group
 from rest_framework import serializers
-
-from bangazon_api.api.api_database_management.user_interface.create_models import *
+from bangazon_api.api.models import *
 
 
 class UserSerializer(serializers.HyperlinkedModelSerializer):

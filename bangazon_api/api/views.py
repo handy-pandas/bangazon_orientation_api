@@ -1,7 +1,7 @@
 from django.contrib.auth.models import *
 from rest_framework import viewsets
 from bangazon_api.api.serializers import *
-from bangazon_api.api.api_database_management.user_interface.create_models import *
+from bangazon_api.api.models import *
 
 
 class UserViewSet(viewsets.ModelViewSet):

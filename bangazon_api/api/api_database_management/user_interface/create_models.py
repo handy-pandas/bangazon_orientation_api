@@ -9,8 +9,7 @@ class Order(models.Model):
         CustomerId (INT): Customer Id referencing Customer table (FK)
     """
     PaymentTypeId = models.ForeignKey(PaymentType)    
-    CustomerId = models.ForeignKey(Customer)    
-    Orders = models.CharField(max_length=40)
+    CustomerId = models.ForeignKey(Customer)        
 
 class ProductOrder(models.Model):
     """This class is a join table for both the Product and Order Table within Bangazon db
