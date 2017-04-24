@@ -1,8 +1,8 @@
-from django.contrib.auth.models import User, Group
+from django.contrib.auth.models import *
 from rest_framework import viewsets
 from bangazon_api.api.serializers import *
-
 from bangazon_api.api.api_database_management.user_interface.create_models import *
+
 
 class UserViewSet(viewsets.ModelViewSet):
     """
@@ -23,6 +23,6 @@ class OrderViewSet(viewsets.ModelViewSet):
     """
     API endpoint that allows orders to be viewed or edited.
     """
-    queryset = Order.objects.all()
+    queryset = Orders.objects.all()
     serializer_class = OrderSerializer
 
