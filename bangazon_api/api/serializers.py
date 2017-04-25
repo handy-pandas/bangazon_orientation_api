@@ -32,7 +32,7 @@ class GroupSerializer(serializers.HyperlinkedModelSerializer):
         '''
         model = Group
         fields = ('url', 'name')
-        
+
 
 class CustomerSerializer(serializers.HyperlinkedModelSerializer):
     '''
@@ -66,7 +66,7 @@ class ProductTypeSerializer(serializers.HyperlinkedModelSerializer):
         Defines what fields are exposed to the api from the ProductType model.
         '''
         model = ProductType
-        fields = ('url', 'name')
+        fields = ('url', 'Name')
 
 
 class PaymentTypeSerializer(serializers.HyperlinkedModelSerializer):
