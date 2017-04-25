@@ -48,7 +48,7 @@ class CustomerSerializer(serializers.HyperlinkedModelSerializer):
         '''
 
         model = Customer
-        fields = ('FirstName', 'LastName', 'JoinDate', 'InactiveDate', 'Inactive')        
+        fields = ('FirstName', 'LastName', 'JoinDate', 'InactiveDate', 'Inactive')
 
 
 class ProductTypeSerializer(serializers.HyperlinkedModelSerializer):
@@ -99,7 +99,6 @@ class ProductSerializer(serializers.HyperlinkedModelSerializer):
         model = Product
         fields = ('CategoryId', 'CustomerId', 'Title', 'Description', 'Price')
 
-
 class OrderSerializer(serializers.HyperlinkedModelSerializer):
     '''
     Class to expose Order table to the API
@@ -114,14 +113,12 @@ class OrderSerializer(serializers.HyperlinkedModelSerializer):
         fields = ('url', 'PaymentTypeId', 'CustomerId')  
         
 
-class EmployeeSerializer(serializers.HyperlinkedModelSerializer):
+class DepartmentSerializer(serializers.HyperlinkedModelSerializer):
     '''
-    Class included in REST framework setup.
+    Class to expose department table to the API.
 
-    Arguments:     
-    A hyperlink.
-
-    Author: Talbot Lawrence
+    Author:
+    wocaldwell
     '''
 
     class Meta:
@@ -129,5 +126,19 @@ class EmployeeSerializer(serializers.HyperlinkedModelSerializer):
         Defines what fields are exposed to the api from the model.
         '''
 
+        model = Department
+        exclude = ()  
+
+
+class EmployeeSerializer(serializers.HyperlinkedModelSerializer):
+    '''
+    Class to expose the employees to the API.
+
+    Arguments:     
+    A hyperlink.
+
+    Author: Talbot Lawrence
+    '''
+    class Meta:
         model = Employee
-        fields = ('FirstName', 'LastName', 'Title', 'Department')         
+        fields = ('FirstName', 'LastName', 'Title', 'DepartmentId')   
