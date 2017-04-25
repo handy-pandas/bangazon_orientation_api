@@ -56,8 +56,6 @@ class ProductViewSet(viewsets.ModelViewSet):
     queryset = Product.objects.all()
     serializer_class = ProductSerializer
 
-
-
 class OrderViewSet(viewsets.ModelViewSet):
     """
     API endpoint that allows orders to be viewed or edited.
@@ -88,7 +86,7 @@ class EmployeeViewSet(viewsets.ModelViewSet):
     queryset = Employee.objects.all()
     serializer_class = EmployeeSerializer
 
-    
+
 class TrainingViewSet(viewsets.ModelViewSet):
     """
     API endpoint that allows training progeams to be viewed or edited.
@@ -96,6 +94,13 @@ class TrainingViewSet(viewsets.ModelViewSet):
     """
     queryset = Training.objects.all()
     serializer_class = TrainingSerializer
+    
 
+class ComputerViewSet(viewsets.ModelViewSet):
+    """
+    API endpoint that allows computers to be viewed or edited.
 
-
+    Author: James Tonkin
+    """
+    queryset = Computer.objects.all()
+    serializer_class = ComputerSerializer

@@ -13,9 +13,7 @@ router.register(r'order', views.OrderViewSet)
 router.register(r'department', views.DepartmentViewSet)
 router.register(r'employee', views.EmployeeViewSet)
 router.register(r'training', views.TrainingViewSet)
-
-
-
+router.register(r'computer', views.ComputerViewSet)
 
 
 # Wire up our API using automatic URL routing.

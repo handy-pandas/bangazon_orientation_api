@@ -65,8 +65,8 @@ class ProductOrder(models.Model):
     Author: Taylor Perkins
     """
 
-    ProductId = models.ForeignKey(Product)    
-    OrderId = models.ForeignKey(Order) 
+    ProductId = models.ForeignKey(Product)
+    OrderId = models.ForeignKey(Order)
 
 
 class Department(models.Model):
@@ -105,6 +105,8 @@ class Training(models.Model):
 	Author: Aaron Barfoot
 	"""
 	Title = models.CharField(max_length=55)
+	Description = models.CharField(max_length=150)
+	Price = models.DecimalField(max_digits=6, decimal_places=2)
 	StartDate = models.DateField(max_length=10)
 	EndDate = models.DateField(max_length=10)
 	Max = models.IntegerField()
@@ -120,12 +122,15 @@ class EmployeeTraining(models.Model):
 
     Author: Aaron Barfoot
     """
-    EmployeeId = models.ForeignKey(Employee)    
-    TrainingId = models.ForeignKey(Training)   
+    EmployeeId = models.ForeignKey(Employee)
+    TrainingId = models.ForeignKey(Training)
 
+    
+class Computer(models.Model):
+    """ Class to expose the computers to the API.
 
-
-
-
-
-
+    Author: James Tonkin
+    """
+    EmployeeId = models.ForeignKey(Employee)
+    PurchaseDate = models.DateField(max_length=20)
+    DecomDate = models.DateField(max_length=20)

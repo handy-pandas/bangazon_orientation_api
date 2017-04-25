@@ -32,12 +32,13 @@ class GroupSerializer(serializers.HyperlinkedModelSerializer):
         '''
         model = Group
         fields = ('url', 'name')
+        
 
 class CustomerSerializer(serializers.HyperlinkedModelSerializer):
     '''
     Class included in REST framework setup.
 
-    Arguments:     
+    Arguments:
     A hyperlink.
 
     Author: Talbot Lawrence
@@ -110,8 +111,8 @@ class OrderSerializer(serializers.HyperlinkedModelSerializer):
     '''
     class Meta:
         model = Order
-        fields = ('url', 'PaymentTypeId', 'CustomerId')  
-        
+        fields = ('url', 'PaymentTypeId', 'CustomerId')
+
 
 class DepartmentSerializer(serializers.HyperlinkedModelSerializer):
     '''
@@ -127,20 +128,20 @@ class DepartmentSerializer(serializers.HyperlinkedModelSerializer):
         '''
 
         model = Department
-        exclude = ()  
+        exclude = ()
 
 
 class EmployeeSerializer(serializers.HyperlinkedModelSerializer):
     '''
     Class to expose the employees to the API.
 
-    Arguments:     
+    Arguments:
     A hyperlink.
     Author: Talbot Lawrence
     '''
     class Meta:
         model = Employee
-        fields = ('FirstName', 'LastName', 'Title', 'DepartmentId')  
+        fields = ('FirstName', 'LastName', 'Title', 'DepartmentId')
 
 
 
@@ -160,5 +161,18 @@ class TrainingSerializer(serializers.HyperlinkedModelSerializer):
         model = Training
         fields = ('Title', 'StartDate', 'EndDate', 'Max')
 
+class ComputerSerializer(serializers.HyperlinkedModelSerializer):
+    '''
+    Class to expose the computers table to the API.
 
- 
+    Arguments:
+    A hyperlink.
+
+    Author: James Tonkin
+    '''
+    class Meta:
+        '''
+        Defines what fields are exposed to the api from the computers model.
+        '''
+        model = Computer
+        fields = ('url', 'EmployeeId', 'PurchaseDate', 'DecomDate')
