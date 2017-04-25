@@ -106,7 +106,6 @@ class Training(models.Model):
 	"""
 	Title = models.CharField(max_length=55)
 	Description = models.CharField(max_length=150)
-	Price = models.DecimalField(max_digits=6, decimal_places=2)
 	StartDate = models.DateField(max_length=10)
 	EndDate = models.DateField(max_length=10)
 	Max = models.IntegerField()
