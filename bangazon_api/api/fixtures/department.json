@@ -1,0 +1,92 @@
+[
+  {
+    "model": "api.Department",
+    "pk": 1,
+    "fields": {
+    "url": "http://localhost:8000/bangazon/api/v1/department/1/",
+    "Name": "IT",
+    "Budget": 9999.99
+    }
+  },
+  {
+    "model": "api.Department",
+    "pk": 2,
+    "fields": {
+    "url": "http://localhost:8000/bangazon/api/v1/department/2/",
+    "Name": "IT",
+    "Budget": 9999.99
+    }
+  },
+  {
+    "model": "api.Department",
+    "pk": 3,
+    "fields": {
+    "url": "http://localhost:8000/bangazon/api/v1/department/3/",
+    "Name": "IT",
+    "Budget": 9999.99
+    }
+  },
+  {
+    "model": "api.Department",
+    "pk": 4,
+    "fields": {
+    "url": "http://localhost:8000/bangazon/api/v1/department/4/",
+    "Name": "IT",
+    "Budget": 9999.99
+    }
+  },
+  {
+    "model": "api.Department",
+    "pk": 5,
+    "fields": {
+    "url": "http://localhost:8000/bangazon/api/v1/department/5/",
+    "Name": "IT",
+    "Budget": 9999.99
+    }
+  },
+  {
+    "model": "api.Department",
+    "pk": 6,
+    "fields": {
+    "url": "http://localhost:8000/bangazon/api/v1/department/6/",
+    "Name": "IT",
+    "Budget": 9999.99
+    }
+  },
+  {
+    "model": "api.Department",
+    "pk": 7,
+    "fields": {
+    "url": "http://localhost:8000/bangazon/api/v1/department/7/",
+    "Name": "IT",
+    "Budget": 9999.99
+    }
+  },
+  {
+    "model": "api.Department",
+    "pk": 8,
+    "fields": {
+    "url": "http://localhost:8000/bangazon/api/v1/department/8/",
+    "Name": "IT",
+    "Budget": 9999.99
+    }
+  },
+  {
+    "model": "api.Department",
+    "pk": 9,
+    "fields": {
+    "url": "http://localhost:8000/bangazon/api/v1/department/9/",
+    "Name": "IT",
+    "Budget": 9999.99
+    }
+  },
+  {
+    "model": "api.Department",
+    "pk": 10,
+    "fields": {
+    "url": "http://localhost:8000/bangazon/api/v1/department/10/",
+    "Name": "IT",
+    "Budget": 9999.99
+    }
+  }
+]
