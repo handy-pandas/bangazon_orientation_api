@@ -1,6 +1,5 @@
 from django.db import models
 
-# Create your models here.
 
 class Customer(models.Model):
     """Class designed for creating customers within database
@@ -49,7 +48,7 @@ class Product(models.Model):
     CustomerId = models.ForeignKey(Customer)
     Title = models.CharField(max_length=55)
     Description = models.CharField(max_length=150)
-    Price = models.DecimalField(max_digits=6, decimal_places=2) 
+    Price = models.DecimalField(max_digits=6, decimal_places=2)
 
 class Order(models.Model):
     """This class defines what bangazon's Order table within the database will look like
@@ -61,8 +60,8 @@ class Order(models.Model):
 
     Author: Taylor Perkins
     """
-    PaymentTypeId = models.ForeignKey(PaymentType)    
-    CustomerId = models.ForeignKey(Customer)        
+    PaymentTypeId = models.ForeignKey(PaymentType)
+    CustomerId = models.ForeignKey(Customer)
 
 class ProductOrder(models.Model):
     """This class is a join table for both the Product and Order Table within Bangazon db
@@ -74,6 +73,16 @@ class ProductOrder(models.Model):
 
     Author: Taylor Perkins
     """
-    ProductId = models.ForeignKey(Product)    
-    OrderId = models.ForeignKey(Order)        
+    ProductId = models.ForeignKey(Product)
+    OrderId = models.ForeignKey(Order)
 
+
+class Department(models.Model):
+    """
+    Class for adding product table to the database
+
+    Author:
+    wocaldwell
+    """
+    Name = models.CharField(max_length=55)
+    Budget = models.DecimalField(max_digits=6, decimal_places=2)

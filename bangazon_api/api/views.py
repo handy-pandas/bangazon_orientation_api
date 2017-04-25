@@ -56,6 +56,7 @@ class ProductViewSet(viewsets.ModelViewSet):
     queryset = Product.objects.all()
     serializer_class = ProductSerializer
 
+
 class OrderViewSet(viewsets.ModelViewSet):
     """
     API endpoint that allows orders to be viewed or edited.
@@ -65,5 +66,14 @@ class OrderViewSet(viewsets.ModelViewSet):
     queryset = Order.objects.all()
     serializer_class = OrderSerializer
 
+class DepartmentViewSet(viewsets.ModelViewSet):
+    """
+    API endpoint that allows products to be viewed or edited.
+
+    Author:
+    wocaldwell
+    """
+    queryset = Department.objects.all()
+    serializer_class = DepartmentSerializer
 
 
