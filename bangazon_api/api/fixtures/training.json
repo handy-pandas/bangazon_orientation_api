@@ -94,9 +94,9 @@
      "pk": 10,
      "fields": {
        "Title": "How to Python",
-       "StartDate": 5,
+       "StartDate": 2017-04-01,
        "EndDate": "2017-04-04",
-       "Max": "2017-04-09"
+       "Max": "50"
      }
    }
  ]
