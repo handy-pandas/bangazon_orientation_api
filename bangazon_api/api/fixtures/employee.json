@@ -1,6 +1,6 @@
 [
   {
-    "model": "api.employee",
+    "model": "api.Employee",
     "pk": 1,
     "fields": {
       "FirstName": "Paul",
@@ -10,7 +10,7 @@
     }
   },
   {
-    "model": "api.employee",
+    "model": "api.Employee",
     "pk": 2,
     "fields": {
       "FirstName": "Paul",
@@ -20,7 +20,7 @@
     }
   },
   {
-    "model": "api.employee",
+    "model": "api.Employee",
     "pk": 3,
     "fields": {
       "FirstName": "Paul",
@@ -30,7 +30,7 @@
     }
   },
   {
-    "model": "api.employee",
+    "model": "api.Employee",
     "pk": 4,
     "fields": {
       "FirstName": "Paul",
@@ -40,7 +40,7 @@
     }
   },
   {
-    "model": "api.employee",
+    "model": "api.Employee",
     "pk": 5,
     "fields": {
       "FirstName": "Paul",
@@ -50,7 +50,7 @@
     }
   },
   {
-    "model": "api.employee",
+    "model": "api.Employee",
     "pk": 6,
     "fields": {
       "FirstName": "Paul",
@@ -60,7 +60,7 @@
     }
   },
   {
-    "model": "api.employee",
+    "model": "api.Employee",
     "pk": 7,
     "fields": {
       "FirstName": "Paul",
@@ -70,7 +70,7 @@
     }
   },
   {
-    "model": "api.employee",
+    "model": "api.Employee",
     "pk": 8,
     "fields": {
       "FirstName": "Paul",
@@ -80,7 +80,7 @@
     }
   },
   {
-    "model": "api.employee",
+    "model": "api.Employee",
     "pk": 9,
     "fields": {
       "FirstName": "Paul",
@@ -90,7 +90,7 @@
     }
   },
   {
-    "model": "api.employee",
+    "model": "api.Employee",
     "pk": 10,
     "fields": {
       "FirstName": "Paul",
