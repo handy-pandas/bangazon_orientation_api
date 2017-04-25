@@ -1,6 +1,6 @@
 from django.contrib.auth.models import *
 from rest_framework import serializers
-from django.db import models
+
 from bangazon_api.api.models import *
 
 
@@ -33,7 +33,6 @@ class GroupSerializer(serializers.HyperlinkedModelSerializer):
         model = Group
         fields = ('url', 'name')
 
-
 class CustomerSerializer(serializers.HyperlinkedModelSerializer):
     '''
     Class included in REST framework setup.
@@ -43,7 +42,6 @@ class CustomerSerializer(serializers.HyperlinkedModelSerializer):
 
     Author: Talbot Lawrence
     '''
-
     class Meta:
         '''
         Defines what fields are exposed to the api from the model.
@@ -82,10 +80,9 @@ class PaymentTypeSerializer(serializers.HyperlinkedModelSerializer):
         '''
         Defines what fields are exposed to the api from the model.
         '''
-
         model = PaymentType
         fields = ('url', 'Name', 'AccountNumber', 'CustomerId')
-      
+
 
 class ProductSerializer(serializers.HyperlinkedModelSerializer):
     '''
@@ -99,10 +96,23 @@ class ProductSerializer(serializers.HyperlinkedModelSerializer):
         '''
         Defines what fields are exposed to the api from the model.
         '''
-
         model = Product
         fields = ('CategoryId', 'CustomerId', 'Title', 'Description', 'Price')
 
+
+class OrderSerializer(serializers.HyperlinkedModelSerializer):
+    '''
+    Class to expose Order table to the API
+
+    Arguments:
+        A hyperlink.
+
+    Author: Taylor perkins
+    '''
+    class Meta:
+        model = Order
+        fields = ('url', 'PaymentTypeId', 'CustomerId')  
+        
 
 class EmployeeSerializer(serializers.HyperlinkedModelSerializer):
     '''
@@ -120,4 +130,4 @@ class EmployeeSerializer(serializers.HyperlinkedModelSerializer):
         '''
 
         model = Employee
-        fields = ('FirstName', 'LastName', 'Title', 'Department')   
+        fields = ('FirstName', 'LastName', 'Title', 'Department')         
