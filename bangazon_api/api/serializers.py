@@ -47,7 +47,7 @@ class CustomerSerializer(serializers.HyperlinkedModelSerializer):
         '''
 
         model = Customer
-        fields = ('FirstName', 'LastName', 'JoinDate', 'InactiveDate', 'Inactive')        
+        fields = ('FirstName', 'LastName', 'JoinDate', 'InactiveDate', 'Inactive')
 
 
 class ProductTypeSerializer(serializers.HyperlinkedModelSerializer):
@@ -98,7 +98,6 @@ class ProductSerializer(serializers.HyperlinkedModelSerializer):
         model = Product
         fields = ('CategoryId', 'CustomerId', 'Title', 'Description', 'Price')
 
-
 class OrderSerializer(serializers.HyperlinkedModelSerializer):
     '''
     Class to expose Order table to the API
@@ -110,7 +109,24 @@ class OrderSerializer(serializers.HyperlinkedModelSerializer):
     '''
     class Meta:
         model = Order
-        fields = ('url', 'PaymentTypeId', 'CustomerId')        
+        fields = ('url', 'PaymentTypeId', 'CustomerId')
+
+class DepartmentSerializer(serializers.HyperlinkedModelSerializer):
+    '''
+    Class to expose department table to the API.
+
+    Author:
+    wocaldwell
+    '''
+    class Meta:
+        '''
+        Defines what fields are exposed to the api from the model.
+        '''
+
+        model = Department
+        exclude = ()
+
+
 
 
 class TrainingSerializer(serializers.HyperlinkedModelSerializer):
