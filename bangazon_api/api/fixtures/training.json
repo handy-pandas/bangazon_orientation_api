@@ -14,8 +14,8 @@
      "pk": 2,
      "fields": {
        "Title": "Dating in the workplace Seminar",
-       "Start": "2017-04-22",
-       "End": "2017-04-28",
+       "StartDate": "2017-04-22",
+       "EndDate": "2017-04-28",
        "Max": 50
      }
    },
