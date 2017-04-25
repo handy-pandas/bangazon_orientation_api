@@ -33,7 +33,6 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     'bangazon_api.api',
     'django.contrib.admin',
-    'bangazon_api.api',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
