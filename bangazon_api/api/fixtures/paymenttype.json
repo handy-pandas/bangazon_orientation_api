@@ -1,0 +1,92 @@
+[
+  {
+    "model": "api.PaymentType",
+    "pk": 1,
+    "fields": {
+    "Name": "Visa",
+    "AccountNumber": 1234,
+    "CustomerId": 1
+    }
+  },
+  {
+    "model": "api.PaymentType",
+    "pk": 2,
+    "fields": {
+    "Name": "Cash",
+    "AccountNumber": 2345,
+    "CustomerId": 10
+    }
+  },
+  {
+    "model": "api.PaymentType",
+    "pk": 3,
+    "fields": {
+    "Name": "Visa",
+    "AccountNumber": 3456,
+    "CustomerId": 1
+    }
+  },
+  {
+    "model": "api.PaymentType",
+    "pk": 4,
+    "fields": {
+    "Name": "Bitcoin",
+    "AccountNumber": 4567,
+    "CustomerId": 8
+    }
+  },
+  {
+    "model": "api.PaymentType",
+    "pk": 5,
+    "fields": {
+    "Name": "Barter",
+    "AccountNumber": 5678,
+    "CustomerId": 5
+    }
+  },
+  {
+    "model": "api.PaymentType",
+    "pk": 6,
+    "fields": {
+    "Name": "MasterCard",
+    "AccountNumber": 6789,
+    "CustomerId": 2
+    }
+  },
+  {
+    "model": "api.PaymentType",
+    "pk": 7,
+    "fields": {
+    "Name": "Visa",
+    "AccountNumber": 7890,
+    "CustomerId": 3
+    }
+  },
+  {
+    "model": "api.PaymentType",
+    "pk": 8,
+    "fields": {
+    "Name": "Visa",
+    "AccountNumber": 1023,
+    "CustomerId": 9
+    }
+  },
+  {
+    "model": "api.PaymentType",
+    "pk": 9,
+    "fields": {
+    "Name": "ApplePay",
+    "AccountNumber": 1123,
+    "CustomerId": 4
+    }
+  },
+  {
+    "model": "api.PaymentType",
+    "pk": 10,
+    "fields": {
+    "Name": "Diner's Club",
+    "AccountNumber": 1345,
+    "CustomerId": 2
+    }
+  }
+]
