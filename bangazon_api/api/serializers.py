@@ -98,7 +98,7 @@ class ProductSerializer(serializers.HyperlinkedModelSerializer):
         Defines what fields are exposed to the api from the model.
         '''
         model = Product
-        fields = ('CategoryId', 'CustomerId', 'Title', 'Description', 'Price')
+        fields = ('url', 'CategoryId', 'CustomerId', 'Title', 'Description', 'Price')
 
 class OrderSerializer(serializers.HyperlinkedModelSerializer):
     '''
@@ -159,7 +159,7 @@ class TrainingSerializer(serializers.HyperlinkedModelSerializer):
         '''
 
         model = Training
-        fields = ('Title', 'StartDate', 'EndDate', 'Max')
+        fields = ('url', 'Title', 'StartDate', 'EndDate', 'Max')
 
 class ComputerSerializer(serializers.HyperlinkedModelSerializer):
     '''
