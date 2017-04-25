@@ -78,7 +78,17 @@ class DepartmentViewSet(viewsets.ModelViewSet):
     queryset = Department.objects.all()
     serializer_class = DepartmentSerializer
 
+class EmployeeViewSet(viewsets.ModelViewSet):
+    """
+    API endpoint that allows Create Model to be viewed or edited.
 
+    Author:
+    Talbot Lawrence
+    """
+    queryset = Employee.objects.all()
+    serializer_class = EmployeeSerializer
+
+    
 class TrainingViewSet(viewsets.ModelViewSet):
     """
     API endpoint that allows training progeams to be viewed or edited.
@@ -86,3 +96,6 @@ class TrainingViewSet(viewsets.ModelViewSet):
     """
     queryset = Training.objects.all()
     serializer_class = TrainingSerializer
+
+
+
