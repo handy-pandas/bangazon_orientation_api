@@ -37,9 +37,10 @@ class CustomerSerializer(serializers.HyperlinkedModelSerializer):
     '''
     Class included in REST framework setup.
 
-    Arguments: FirstName, LastName, JoinDate, InactiveDate, Inactive
-
+    Arguments:     
     A hyperlink.
+
+    Author: Talbot Lawrence
     '''
     class Meta:
         '''
@@ -109,7 +110,8 @@ class OrderSerializer(serializers.HyperlinkedModelSerializer):
     '''
     class Meta:
         model = Order
-        fields = ('url', 'PaymentTypeId', 'CustomerId')
+        fields = ('url', 'PaymentTypeId', 'CustomerId')  
+        
 
 class DepartmentSerializer(serializers.HyperlinkedModelSerializer):
     '''
@@ -118,13 +120,25 @@ class DepartmentSerializer(serializers.HyperlinkedModelSerializer):
     Author:
     wocaldwell
     '''
+
     class Meta:
         '''
         Defines what fields are exposed to the api from the model.
         '''
 
         model = Department
-        exclude = ()
+        exclude = ()  
 
 
+class EmployeeSerializer(serializers.HyperlinkedModelSerializer):
+    '''
+    Class to expose the employees to the API.
 
+    Arguments:     
+    A hyperlink.
+
+    Author: Talbot Lawrence
+    '''
+    class Meta:
+        model = Employee
+        fields = ('FirstName', 'LastName', 'Title', 'DepartmentId')   
