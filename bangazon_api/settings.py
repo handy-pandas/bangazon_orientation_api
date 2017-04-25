@@ -49,6 +49,10 @@ REST_FRAMEWORK = {
     'PAGE_SIZE': 10
 }
 
+FIXTURE_DIRS = (
+   '/bangazon_api/api/fixtures/',
+)
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
