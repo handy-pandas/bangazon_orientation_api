@@ -50,7 +50,7 @@ REST_FRAMEWORK = {
 }
 
 FIXTURE_DIRS = (
-   '/bangazon_api/api/fixtures/',
+    'bangazon_api/api/fixtures/',
 )
 
 MIDDLEWARE = [
