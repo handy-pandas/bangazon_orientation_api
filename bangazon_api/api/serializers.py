@@ -16,7 +16,7 @@ class UserSerializer(serializers.HyperlinkedModelSerializer):
         Defines what fields are exposed to the api from the model.
         '''
         model = User
-        fields = ('url', 'username', 'email', 'groups')
+        exclude = ()
 
 
 class GroupSerializer(serializers.HyperlinkedModelSerializer):
@@ -31,8 +31,8 @@ class GroupSerializer(serializers.HyperlinkedModelSerializer):
         Defines what fields are exposed to the api from the model.
         '''
         model = Group
-        fields = ('url', 'name')
-        
+        exclude = ()
+
 
 class CustomerSerializer(serializers.HyperlinkedModelSerializer):
     '''
@@ -49,7 +49,7 @@ class CustomerSerializer(serializers.HyperlinkedModelSerializer):
         '''
 
         model = Customer
-        fields = ('FirstName', 'LastName', 'JoinDate', 'InactiveDate', 'Inactive')
+        exclude = ()
 
 
 class ProductTypeSerializer(serializers.HyperlinkedModelSerializer):
@@ -66,7 +66,7 @@ class ProductTypeSerializer(serializers.HyperlinkedModelSerializer):
         Defines what fields are exposed to the api from the ProductType model.
         '''
         model = ProductType
-        fields = ('url', 'name')
+        exclude = ()
 
 
 class PaymentTypeSerializer(serializers.HyperlinkedModelSerializer):
@@ -82,7 +82,7 @@ class PaymentTypeSerializer(serializers.HyperlinkedModelSerializer):
         Defines what fields are exposed to the api from the model.
         '''
         model = PaymentType
-        fields = ('url', 'Name', 'AccountNumber', 'CustomerId')
+        exclude = ()
 
 
 class ProductSerializer(serializers.HyperlinkedModelSerializer):
@@ -98,7 +98,7 @@ class ProductSerializer(serializers.HyperlinkedModelSerializer):
         Defines what fields are exposed to the api from the model.
         '''
         model = Product
-        fields = ('CategoryId', 'CustomerId', 'Title', 'Description', 'Price')
+        exclude = ()
 
 class OrderSerializer(serializers.HyperlinkedModelSerializer):
     '''
@@ -111,7 +111,7 @@ class OrderSerializer(serializers.HyperlinkedModelSerializer):
     '''
     class Meta:
         model = Order
-        fields = ('url', 'PaymentTypeId', 'CustomerId')
+        exclude = ()
 
 
 class DepartmentSerializer(serializers.HyperlinkedModelSerializer):
@@ -141,8 +141,7 @@ class EmployeeSerializer(serializers.HyperlinkedModelSerializer):
     '''
     class Meta:
         model = Employee
-        fields = ('FirstName', 'LastName', 'Title', 'DepartmentId')
-
+        exclude = ()
 
 
 class TrainingSerializer(serializers.HyperlinkedModelSerializer):
@@ -159,7 +158,7 @@ class TrainingSerializer(serializers.HyperlinkedModelSerializer):
         '''
 
         model = Training
-        fields = ('Title', 'StartDate', 'EndDate', 'Max')
+        exclude = ()
 
 class ComputerSerializer(serializers.HyperlinkedModelSerializer):
     '''
@@ -175,4 +174,4 @@ class ComputerSerializer(serializers.HyperlinkedModelSerializer):
         Defines what fields are exposed to the api from the computers model.
         '''
         model = Computer
-        fields = ('url', 'EmployeeId', 'PurchaseDate', 'DecomDate')
+        exclude = ()
