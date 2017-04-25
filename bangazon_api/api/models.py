@@ -110,7 +110,7 @@ class Training(models.Model):
 	Max = models.IntegerField()
 
 
-  class EmployeeTraining(models.Model):
+class EmployeeTraining(models.Model):
     """This class is a join table for both the Employee and Training Table within Bangazon db
         You will need both the Employee and Training tables created for this table to apply
 
