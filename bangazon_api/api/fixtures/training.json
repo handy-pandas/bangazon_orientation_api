@@ -1,0 +1,102 @@
+[
+   {
+     "model": "api.Training",
+     "pk": 1,
+     "fields": {
+       "Title": "Anger Management Seminar",
+       "StartDate": "2017-04-11",
+       "EndDate": "2017-04-26",
+       "Max": 50
+     }
+   },
+   {
+     "model": "api.Training",
+     "pk": 2,
+     "fields": {
+       "Title": "Dating in the workplace Seminar",
+       "StartDate": "2017-04-22",
+       "EndDate": "2017-04-28",
+       "Max": 50
+     }
+   },
+   {
+     "model": "api.Training",
+     "pk": 3,
+     "fields": {
+       "Title": "How to type Seminar",
+       "StartDate": "2017-04-26",
+       "EndDate": "2017-04-28",
+       "Max": 50
+     }
+   },
+   {
+     "model": "api.Training",
+     "pk": 4,
+     "fields": {
+       "Title": "Defensive Driving Seminar",
+       "StartDate": "2017-04-26",
+       "EndDate": "2017-04-27",
+       "Max": 50
+     }
+   },
+   {
+     "model": "api.Training",
+     "pk": 5,
+     "fields": {
+       "Title": "Django REST Framework Seminar",
+       "StartDate": "2017-04-16",
+       "EndDate": "2017-04-29",
+       "Max": 50
+     }
+   },
+   {
+     "model": "api.Training",
+     "pk": 6,
+     "fields": {
+       "Title": "Happiness Management Seminar",
+       "StartDate": "2017-04-11",
+       "EndDate": "2017-04-26",
+       "Max": 50
+     }
+   },
+   {
+     "model": "api.Training",
+     "pk": 7,
+     "fields": {
+       "Title": "How to Angular",
+       "StartDate": "2017-04-26",
+       "EndDate": "2017-04-26",
+       "Max": 50
+     }
+   },
+   {
+     "model": "api.Training",
+     "pk": 8,
+     "fields": {
+       "Title": "How to Jquery",
+       "StartDate": "2017-04-26",
+       "EndDate": "2017-04-28",
+       "Max": 50
+     }
+   },
+   {
+     "model": "api.Training",
+     "pk": 9,
+     "fields": {
+       "Title": "How to CSS",
+       "StartDate": "2017-04-26",
+       "EndDate": "2017-04-30",
+       "Max": 50
+     }
+   },
+   {
+     "model": "api.Training",
+     "pk": 10,
+     "fields": {
+       "Title": "How to Python",
+       "StartDate": "2017-04-01",
+       "EndDate": "2017-04-04",
+       "Max": "50"
+     }
+   }
+ ]
