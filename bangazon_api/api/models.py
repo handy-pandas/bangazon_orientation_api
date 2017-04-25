@@ -16,7 +16,7 @@ class ProductType(models.Model):
     """ Class to expose the product types to the API.
     Author: James Tonkin
     """
-    name = models.CharField(max_length=255)
+    Name = models.CharField(max_length=255)
 
 
 class PaymentType(models.Model):
@@ -124,7 +124,7 @@ class EmployeeTraining(models.Model):
     EmployeeId = models.ForeignKey(Employee)
     TrainingId = models.ForeignKey(Training)
 
-    
+
 class Computer(models.Model):
     """ Class to expose the computers to the API.
 
