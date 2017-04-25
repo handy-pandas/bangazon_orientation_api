@@ -16,7 +16,7 @@ class UserSerializer(serializers.HyperlinkedModelSerializer):
         Defines what fields are exposed to the api from the model.
         '''
         model = User
-        exclude = ()
+        fields = ('url', 'username', 'email', 'groups')
 
 
 class GroupSerializer(serializers.HyperlinkedModelSerializer):
@@ -31,7 +31,7 @@ class GroupSerializer(serializers.HyperlinkedModelSerializer):
         Defines what fields are exposed to the api from the model.
         '''
         model = Group
-        exclude = ()
+        fields = ('url', 'name')
 
 
 class CustomerSerializer(serializers.HyperlinkedModelSerializer):
