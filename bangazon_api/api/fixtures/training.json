@@ -4,8 +4,8 @@
      "pk": 1,
      "fields": {
        "Title": "Anger Management Seminar",
-       "Start": "2017-04-11",
-       "End": "2017-04-26",
+       "StartDate": "2017-04-11",
+       "EndDate": "2017-04-26",
        "Max": 50
      }
    },
@@ -24,8 +24,8 @@
      "pk": 3,
      "fields": {
        "Title": "How to type Seminar",
-       "Start": "2017-04-26",
-       "End": "2017-04-28",
+       "StartDate": "2017-04-26",
+       "EndDate": "2017-04-28",
        "Max": 50
      }
    },
@@ -34,8 +34,8 @@
      "pk": 4,
      "fields": {
        "Title": "Defensive Driving Seminar",
-       "Start": "2017-04-26",
-       "End": "2017-04-27",
+       "StartDate": "2017-04-26",
+       "EndDate": "2017-04-27",
        "Max": 50
      }
    },
@@ -44,8 +44,8 @@
      "pk": 5,
      "fields": {
        "Title": "Django REST Framework Seminar",
-       "Start": "2017-04-16",
-       "End": "2017-04-29",
+       "StartDate": "2017-04-16",
+       "EndDate": "2017-04-29",
        "Max": 50
      }
    },
@@ -54,8 +54,8 @@
      "pk": 6,
      "fields": {
        "Title": "Happiness Management Seminar",
-       "Start": "2017-04-11",
-       "End": "2017-04-26",
+       "StartDate": "2017-04-11",
+       "EndDate": "2017-04-26",
        "Max": 50
      }
    },
@@ -64,8 +64,8 @@
      "pk": 7,
      "fields": {
        "Title": "How to Angular",
-       "Start": "2017-04-26",
-       "End": "2017-04-26",
+       "StartDate": "2017-04-26",
+       "EndDate": "2017-04-26",
        "Max": 50
      }
    },
@@ -74,8 +74,8 @@
      "pk": 8,
      "fields": {
        "Title": "How to Jquery",
-       "Start": "2017-04-26",
-       "End": "2017-04-28",
+       "StartDate": "2017-04-26",
+       "EndDate": "2017-04-28",
        "Max": 50
      }
    },
@@ -84,8 +84,8 @@
      "pk": 9,
      "fields": {
        "Title": "How to CSS",
-       "Start": "2017-04-26",
-       "End": "2017-04-30",
+       "StartDate": "2017-04-26",
+       "EndDate": "2017-04-30",
        "Max": 50
      }
    },
@@ -94,8 +94,8 @@
      "pk": 10,
      "fields": {
        "Title": "How to Python",
-       "Start": 5,
-       "End": "2017-04-04",
+       "StartDate": 5,
+       "EndDate": "2017-04-04",
        "Max": "2017-04-09"
      }
    }
