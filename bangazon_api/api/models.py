@@ -35,7 +35,9 @@ class PaymentType(models.Model):
 class Product(models.Model):
     """Class for adding product table to the database
     Methods:
-    Author: [Aaron Barfoot]
+
+    Author: Aaron Barfoot
+
     """
     CategoryId = models.ForeignKey(ProductType)
     CustomerId = models.ForeignKey(Customer)
@@ -71,12 +73,15 @@ class Department(models.Model):
     """
     Class for adding product table to the database
 
+
+    Name = models.CharField(max_length=55)
+    Budget = models.DecimalField(max_digits=6, decimal_places=2)
+
     Author:
     wocaldwell
     """
     Name = models.CharField(max_length=55)
     Budget = models.DecimalField(max_digits=6, decimal_places=2)
-    
 
 class Employee(models.Model):
     """Class designed for creating employees within database
@@ -90,3 +95,37 @@ class Employee(models.Model):
     LastName = models.CharField(max_length=44)
     Title = models.CharField(max_length=44)
     DepartmentId = models.ForeignKey(Department)
+
+
+class Training(models.Model):
+	"""Class for adding training program to the database
+
+	Methods:
+
+	Author: Aaron Barfoot
+	"""
+	Title = models.CharField(max_length=55)
+	StartDate = models.DateField(max_length=10)
+	EndDate = models.DateField(max_length=10)
+	Max = models.IntegerField()
+
+
+class EmployeeTraining(models.Model):
+    """This class is a join table for both the Employee and Training Table within Bangazon db
+        You will need both the Employee and Training tables created for this table to apply
+
+    Attributes:
+        EmployeeId (INT): Employee Id referencing Employee table (FK)
+        TrainingId (INT): Training Id referencing Training table (FK)
+
+    Author: Aaron Barfoot
+    """
+    EmployeeId = models.ForeignKey(Employee)    
+    TrainingId = models.ForeignKey(Training)   
+
+
+
+
+
+
+

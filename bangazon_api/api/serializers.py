@@ -136,9 +136,29 @@ class EmployeeSerializer(serializers.HyperlinkedModelSerializer):
 
     Arguments:     
     A hyperlink.
-
     Author: Talbot Lawrence
     '''
     class Meta:
         model = Employee
-        fields = ('FirstName', 'LastName', 'Title', 'DepartmentId')   
+        fields = ('FirstName', 'LastName', 'Title', 'DepartmentId')  
+
+
+
+class TrainingSerializer(serializers.HyperlinkedModelSerializer):
+    '''
+    Class to expose Training Programs to the API
+
+    Arguments: Title, StartDate, EndDate, Max
+
+    Author: Aaron Barfoot
+    '''
+    class Meta:
+        '''
+        Defines what fields are exposed to the api from the model.
+        '''
+
+        model = Training
+        fields = ('Title', 'StartDate', 'EndDate', 'Max')
+
+
+ 

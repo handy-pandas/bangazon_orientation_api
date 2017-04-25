@@ -12,6 +12,11 @@ router.register(r'product', views.ProductViewSet)
 router.register(r'order', views.OrderViewSet)
 router.register(r'department', views.DepartmentViewSet)
 router.register(r'employee', views.EmployeeViewSet)
+router.register(r'training', views.TrainingViewSet)
+
+
+
+
 
 # Wire up our API using automatic URL routing.
 # Additionally, we include login URLs for the browsable API.
