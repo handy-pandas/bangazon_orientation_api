@@ -1,0 +1,102 @@
+[
+   {
+     "model": "api.Training",
+     "pk": 1,
+     "fields": {
+       "Title": "Anger Management Seminar",
+       "Start": "2017-04-11",
+       "End": "2017-04-26",
+       "Max": 50
+     }
+   },
+   {
+     "model": "api.Training",
+     "pk": 2,
+     "fields": {
+       "Title": "Dating in the workplace Seminar",
+       "Start": "2017-04-22",
+       "End": "2017-04-28",
+       "Max": 50
+     }
+   },
+   {
+     "model": "api.Training",
+     "pk": 3,
+     "fields": {
+       "Title": "How to type Seminar",
+       "Start": "2017-04-26",
+       "End": "2017-04-28",
+       "Max": 50
+     }
+   },
+   {
+     "model": "api.Training",
+     "pk": 4,
+     "fields": {
+       "Title": "Defensive Driving Seminar",
+       "Start": "2017-04-26",
+       "End": "2017-04-27",
+       "Max": 50
+     }
+   },
+   {
+     "model": "api.Training",
+     "pk": 5,
+     "fields": {
+       "Title": "Django REST Framework Seminar",
+       "Start": "2017-04-16",
+       "End": "2017-04-29",
+       "Max": 50
+     }
+   },
+   {
+     "model": "api.Training",
+     "pk": 5,
+     "fields": {
+       "Title": "Happiness Management Seminar",
+       "Start": "2017-04-11",
+       "End": "2017-04-26",
+       "Max": 50
+     }
+   },
+   {
+     "model": "api.Training",
+     "pk": 5,
+     "fields": {
+       "Title": "How to Angular",
+       "Start": "2017-04-26",
+       "End": "2017-04-26",
+       "Max": 50
+     }
+   },
+   {
+     "model": "api.Training",
+     "pk": 5,
+     "fields": {
+       "Title": "How to Jquery",
+       "Start": "2017-04-26",
+       "End": "2017-04-28",
+       "Max": 50
+     }
+   },
+   {
+     "model": "api.Training",
+     "pk": 5,
+     "fields": {
+       "Title": "How to CSS",
+       "Start": "2017-04-26",
+       "End": "2017-04-30",
+       "Max": 50
+     }
+   },
+   {
+     "model": "api.Training",
+     "pk": 5,
+     "fields": {
+       "Title": "How to Python",
+       "Start": 5,
+       "End": "2017-04-04",
+       "Max": "2017-04-09"
+     }
+   }
+ ]
