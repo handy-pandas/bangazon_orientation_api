@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'bangazon_api.api',
     'django.contrib.admin',
     'bangazon_api.api',
     'django.contrib.auth',
@@ -38,8 +39,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+<<<<<<< HEAD
     'rest_framework',
 
+=======
+    'rest_framework'
+>>>>>>> master
 ]
 
 REST_FRAMEWORK = {

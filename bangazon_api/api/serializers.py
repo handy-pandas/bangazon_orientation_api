@@ -1,6 +1,6 @@
 from django.contrib.auth.models import *
 from rest_framework import serializers
-from django.db import models
+
 from bangazon_api.api.models import *
 
 
@@ -32,17 +32,17 @@ class GroupSerializer(serializers.HyperlinkedModelSerializer):
         '''
         model = Group
         fields = ('url', 'name')
-
+        
 
 class CustomerSerializer(serializers.HyperlinkedModelSerializer):
     '''
     Class included in REST framework setup.
 
-    Arguments: FirstName, LastName, JoinDate, InactiveDate, Inactive
-
+    Arguments:
     A hyperlink.
-    '''
 
+    Author: Talbot Lawrence
+    '''
     class Meta:
         '''
         Defines what fields are exposed to the api from the model.
@@ -81,7 +81,6 @@ class PaymentTypeSerializer(serializers.HyperlinkedModelSerializer):
         '''
         Defines what fields are exposed to the api from the model.
         '''
-
         model = PaymentType
         fields = ('url', 'Name', 'AccountNumber', 'CustomerId')
 
@@ -98,9 +97,69 @@ class ProductSerializer(serializers.HyperlinkedModelSerializer):
         '''
         Defines what fields are exposed to the api from the model.
         '''
-
         model = Product
         fields = ('CategoryId', 'CustomerId', 'Title', 'Description', 'Price')
+
+class OrderSerializer(serializers.HyperlinkedModelSerializer):
+    '''
+    Class to expose Order table to the API
+
+    Arguments:
+        A hyperlink.
+
+    Author: Taylor perkins
+    '''
+    class Meta:
+        model = Order
+        fields = ('url', 'PaymentTypeId', 'CustomerId')
+
+
+class DepartmentSerializer(serializers.HyperlinkedModelSerializer):
+    '''
+    Class to expose department table to the API.
+
+    Author:
+    wocaldwell
+    '''
+
+    class Meta:
+        '''
+        Defines what fields are exposed to the api from the model.
+        '''
+
+        model = Department
+        exclude = ()
+
+
+class EmployeeSerializer(serializers.HyperlinkedModelSerializer):
+    '''
+    Class to expose the employees to the API.
+
+    Arguments:
+    A hyperlink.
+    Author: Talbot Lawrence
+    '''
+    class Meta:
+        model = Employee
+        fields = ('FirstName', 'LastName', 'Title', 'DepartmentId')
+
+
+
+class TrainingSerializer(serializers.HyperlinkedModelSerializer):
+    '''
+    Class to expose Training Programs to the API
+
+    Arguments: Title, StartDate, EndDate, Max
+
+    Author: Aaron Barfoot
+    '''
+    class Meta:
+        '''
+        Defines what fields are exposed to the api from the model.
+        '''
+
+        model = Training
+        fields = ('Title', 'StartDate', 'EndDate', 'Max')
 
 class ComputerSerializer(serializers.HyperlinkedModelSerializer):
     '''
