@@ -4,8 +4,8 @@
     "pk": 1,
     "fields": {
       "EmployeeId": 1,
-      "PurchaseDate": "04-01-2016",
-      "DecomDate": "04-01-2019"
+      "PurchaseDate": "2016-04-01",
+      "DecomDate": "2019-04-01"
     }
   },
   {
@@ -13,8 +13,8 @@
     "pk": 2,
     "fields": {
       "EmployeeId": 2,
-      "PurchaseDate": "04-01-2016",
-      "DecomDate": "04-01-2019"
+      "PurchaseDate": "2016-04-01",
+      "DecomDate": "2019-04-01"
     }
   },
   {
@@ -22,8 +22,8 @@
     "pk": 3,
     "fields": {
       "EmployeeId": 3,
-      "PurchaseDate": "04-01-2016",
-      "DecomDate": "04-01-2019"
+      "PurchaseDate": "2016-04-01",
+      "DecomDate": "2019-04-01"
     }
   },
   {
@@ -31,8 +31,8 @@
     "pk": 4,
     "fields": {
       "EmployeeId": 4,
-      "PurchaseDate": "04-01-2016",
-      "DecomDate": "04-01-2019"
+      "PurchaseDate": "2016-04-01",
+      "DecomDate": "2019-04-01"
     }
   },
   {
@@ -40,8 +40,8 @@
     "pk": 5,
     "fields": {
       "EmployeeId": 5,
-      "PurchaseDate": "04-01-2016",
-      "DecomDate": "04-01-2019"
+      "PurchaseDate": "2016-04-01",
+      "DecomDate": "2019-04-01"
     }
   },
   {
@@ -49,8 +49,8 @@
     "pk": 6,
     "fields": {
       "EmployeeId": 6,
-      "PurchaseDate": "04-01-2016",
-      "DecomDate": "04-01-2019"
+      "PurchaseDate": "2016-04-01",
+      "DecomDate": "2019-04-01"
     }
   },
   {
@@ -58,8 +58,8 @@
     "pk": 7,
     "fields": {
       "EmployeeId": 7,
-      "PurchaseDate": "04-01-2016",
-      "DecomDate": "04-01-2019"
+      "PurchaseDate": "2016-04-01",
+      "DecomDate": "2019-04-01"
     }
   },
   {
@@ -67,8 +67,8 @@
     "pk": 8,
     "fields": {
       "EmployeeId": 8,
-      "PurchaseDate": "04-01-2016",
-      "DecomDate": "04-01-2019"
+      "PurchaseDate": "2016-04-01",
+      "DecomDate": "2019-04-01"
     }
   },
   {
@@ -76,8 +76,8 @@
     "pk": 9,
     "fields": {
       "EmployeeId": 9,
-      "PurchaseDate": "04-01-2016",
-      "DecomDate": "04-01-2019"
+      "PurchaseDate": "2016-04-01",
+      "DecomDate": "2019-04-01"
     }
   },
   {
@@ -85,8 +85,8 @@
     "pk": 10,
     "fields": {
       "EmployeeId": 10,
-      "PurchaseDate": "04-01-2016",
-      "DecomDate": "04-01-2019"
+      "PurchaseDate": "2016-04-01",
+      "DecomDate": "2019-04-01"
     }
   }
 ]
