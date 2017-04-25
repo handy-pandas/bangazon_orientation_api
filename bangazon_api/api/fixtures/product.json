@@ -56,10 +56,10 @@
    },
    {
      "model": "api.Product",
-     "pk": 5,
+     "pk": 6,
      "fields": {
-       "ProductTypeId": 5,
-       "CustomerId": 5,
+       "ProductTypeId": 6,
+       "CustomerId": 6,
        "Title": "Small bag of gum balls",
        "Description": "A medium bag of gum balls",
        "Price": 2.99
@@ -67,10 +67,10 @@
    },
    {
      "model": "api.Product",
-     "pk": 5,
+     "pk": 7,
      "fields": {
-       "ProductTypeId": 5,
-       "CustomerId": 5,
+       "ProductTypeId": 7,
+       "CustomerId": 7,
        "Title": "Large bag of lollipops",
        "Description": "A bag of lollipops to share with friends",
        "Price": 8.99
@@ -78,10 +78,10 @@
    },
    {
      "model": "api.Product",
-     "pk": 5,
+     "pk": 8,
      "fields": {
-       "ProductTypeId": 5,
-       "CustomerId": 5,
+       "ProductTypeId": 8,
+       "CustomerId": 8,
        "Title": "Medium bag of lollipops",
        "Description": "A medium bag of lollipops",
        "Price": 5.99
@@ -89,10 +89,10 @@
    },
    {
      "model": "api.Product",
-     "pk": 5,
+     "pk": 9,
      "fields": {
-       "ProductTypeId": 5,
-       "CustomerId": 5,
+       "ProductTypeId": 9,
+       "CustomerId": 9,
        "Title": "Small bag of gum balls",
        "Description": "A small bag of gum balls",
        "Price": 3.99
@@ -100,10 +100,10 @@
    },
    {
      "model": "api.Product",
-     "pk": 5,
+     "pk": 10,
      "fields": {
-       "ProductTypeId": 5,
-       "CustomerId": 5,
+       "ProductTypeId": 10,
+       "CustomerId": 10,
        "Title": "Large bag of chocolate kisses",
        "Description": "A bag of chocolate kisses to share with friends",
        "Price": 4.99

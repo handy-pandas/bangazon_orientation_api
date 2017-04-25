@@ -51,7 +51,7 @@
    },
    {
      "model": "api.Training",
-     "pk": 5,
+     "pk": 6,
      "fields": {
        "Title": "Happiness Management Seminar",
        "Start": "2017-04-11",
@@ -61,7 +61,7 @@
    },
    {
      "model": "api.Training",
-     "pk": 5,
+     "pk": 7,
      "fields": {
        "Title": "How to Angular",
        "Start": "2017-04-26",
@@ -71,7 +71,7 @@
    },
    {
      "model": "api.Training",
-     "pk": 5,
+     "pk": 8,
      "fields": {
        "Title": "How to Jquery",
        "Start": "2017-04-26",
@@ -81,7 +81,7 @@
    },
    {
      "model": "api.Training",
-     "pk": 5,
+     "pk": 9,
      "fields": {
        "Title": "How to CSS",
        "Start": "2017-04-26",
@@ -91,7 +91,7 @@
    },
    {
      "model": "api.Training",
-     "pk": 5,
+     "pk": 10,
      "fields": {
        "Title": "How to Python",
        "Start": 5,
