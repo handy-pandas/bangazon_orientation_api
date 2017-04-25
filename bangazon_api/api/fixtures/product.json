@@ -3,7 +3,7 @@
      "model": "api.Product",
      "pk": 1,
      "fields": {
-       "CategoryId": 1,
+       "ProductTypeId": 1,
        "CustomerId": 1,
        "Title": "Large bag of gummy bears",
        "Description": "A bag of gummy bears to share with friends",
@@ -14,7 +14,7 @@
      "model": "api.Product",
      "pk": 2,
      "fields": {
-       "CategoryId": 2,
+       "ProductTypeId": 2,
        "CustomerId": 2,
        "Title": "Medium bag of gummy bears",
        "Description": "A medium bag of gummy bears",
@@ -25,7 +25,7 @@
      "model": "api.Product",
      "pk": 3,
      "fields": {
-       "CategoryId": 3,
+       "ProductTypeId": 3,
        "CustomerId": 3,
        "Title": "Small bag of gummy bears",
        "Description": "Personal size bag of gummy bears",
@@ -36,7 +36,7 @@
      "model": "api.Product",
      "pk": 4,
      "fields": {
-       "CategoryId": 4,
+       "ProductTypeId": 4,
        "CustomerId": 4,
        "Title": "Large bag of gum balls",
        "Description": "A bag of gum balls to share with friends",
@@ -47,7 +47,7 @@
      "model": "api.Product",
      "pk": 5,
      "fields": {
-       "CategoryId": 5,
+       "ProductTypeId": 5,
        "CustomerId": 5,
        "Title": "Medium bag of gum balls",
        "Description": "A medium bag of gum balls",
@@ -58,7 +58,7 @@
      "model": "api.Product",
      "pk": 6,
      "fields": {
-       "CategoryId": 6,
+       "ProductTypeId": 6,
        "CustomerId": 6,
        "Title": "Small bag of gum balls",
        "Description": "A medium bag of gum balls",
@@ -69,7 +69,7 @@
      "model": "api.Product",
      "pk": 7,
      "fields": {
-       "CategoryId": 7,
+       "ProductTypeId": 7,
        "CustomerId": 7,
        "Title": "Large bag of lollipops",
        "Description": "A bag of lollipops to share with friends",
@@ -80,7 +80,7 @@
      "model": "api.Product",
      "pk": 8,
      "fields": {
-       "CategoryId": 8,
+       "ProductTypeId": 8,
        "CustomerId": 8,
        "Title": "Medium bag of lollipops",
        "Description": "A medium bag of lollipops",
@@ -91,7 +91,7 @@
      "model": "api.Product",
      "pk": 9,
      "fields": {
-       "CategoryId": 9,
+       "ProductTypeId": 9,
        "CustomerId": 9,
        "Title": "Small bag of gum balls",
        "Description": "A small bag of gum balls",
@@ -102,7 +102,7 @@
      "model": "api.Product",
      "pk": 10,
      "fields": {
-       "CategoryId": 10,
+       "ProductTypeId": 10,
        "CustomerId": 10,
        "Title": "Large bag of chocolate kisses",
        "Description": "A bag of chocolate kisses to share with friends",
