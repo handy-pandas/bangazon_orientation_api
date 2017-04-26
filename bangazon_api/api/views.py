@@ -20,7 +20,9 @@ class GroupViewSet(viewsets.ModelViewSet):
 
 class CustomerViewSet(viewsets.ModelViewSet):
     """
-    API endpoint that allows Create Model to be viewed or edited.
+    API endpoint that allows customer information to be viewed or edited.
+
+    Author: Talbot Lawrence
     """
     queryset = Customer.objects.all()
     serializer_class = CustomerSerializer
@@ -80,8 +82,7 @@ class EmployeeViewSet(viewsets.ModelViewSet):
     """
     API endpoint that allows Create Model to be viewed or edited.
 
-    Author:
-    Talbot Lawrence
+    Author: Talbot Lawrence
     """
     queryset = Employee.objects.all()
     serializer_class = EmployeeSerializer
@@ -89,7 +90,7 @@ class EmployeeViewSet(viewsets.ModelViewSet):
 
 class TrainingViewSet(viewsets.ModelViewSet):
     """
-    API endpoint that allows training progeams to be viewed or edited.
+    API endpoint that allows training programs to be viewed or edited.
     Author: Aaron Barfoot
     """
     queryset = Training.objects.all()
