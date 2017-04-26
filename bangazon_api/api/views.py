@@ -95,7 +95,7 @@ class TrainingViewSet(viewsets.ModelViewSet):
     """
     queryset = Training.objects.all()
     serializer_class = TrainingSerializer
-    
+
 
 class ComputerViewSet(viewsets.ModelViewSet):
     """
@@ -105,3 +105,12 @@ class ComputerViewSet(viewsets.ModelViewSet):
     """
     queryset = Computer.objects.all()
     serializer_class = ComputerSerializer
+
+class SupportTicketViewSet(viewsets.ModelViewSet):
+    """
+    API endpoint that allows support tickets to be viewed or edited.
+
+    Author: Taylor Perkins
+    """
+    queryset = SupportTicket.objects.all()
+    serializer_class = SupportTicketSerializer

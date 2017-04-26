@@ -175,3 +175,19 @@ class ComputerSerializer(serializers.HyperlinkedModelSerializer):
         '''
         model = Computer
         exclude = ()
+
+class SupportTicketSerializer(serializers.HyperlinkedModelSerializer):
+    '''
+    Class to expose the support ticket table to the API.
+
+    Arguments:
+    A hyperlink.
+
+    Author: Taylor Perkins
+    '''
+    class Meta:
+        '''
+        Defines what fields are exposed to the api from the support ticket model.
+        '''
+        model = SupportTicket
+        exclude = ()

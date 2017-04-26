@@ -13,6 +13,7 @@
   * Product Type
   * Payment Type
   * Employee
+  * Support Ticket
 
 #### The initial version is for internal consumption only, so do not require permissions to access, or manipulate, any resources.
 
