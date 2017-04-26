@@ -22,7 +22,9 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 Install [pip](https://packaging.python.org/installing/)
+
 Install [Python 3.6](https://www.python.org/downloads/)
+
 Install Django and REST framework:
 ```
 pip install django
@@ -36,13 +38,22 @@ Clone repo:
 git clone https://github.com/handy-pandas/bangazon_orientation_api.git
 cd bangazon_orientation_api
 ```
+Setting up the database:
+```
+find . -path "*/migrations/*.py" -not -name "__init__.py" -delete
+find . -path "*/migrations/*.pyc"  -delete
+rm db.sqlite3
+python manage.py makemigrations api
+python manage.py migrate
+python manage.py loaddata customer.json producttype.json paymenttype.json product.json order.json department.json employee.json computer.json training.json 
+```
 Run project in browser:
 
 ```
 python manage.py runserver
 ```
 In your browser you should see somthing like this:
-![Main page](images/main-view.jpg?raw=true)
+![api screen shot](images/api-root.jpg?raw=true)
 
 ## Running the tests
 No testing suites included in this project.
