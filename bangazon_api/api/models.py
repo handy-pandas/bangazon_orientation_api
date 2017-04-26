@@ -145,3 +145,25 @@ class EmployeeComputer(models.Model):
     employee = models.ForeignKey(Employee)
     computer = models.ForeignKey(Computer)
 
+class SupportTicket(models.Model):
+    """Class designed for creating customers within database
+    
+    Attributes:
+        customer (INT): Table Name
+        order (INT): Table Name
+        employee (INT): Table Name
+        description (STRING): Description of actual ticket
+        create_date (STRING): Date created
+        resolution (STRING): Description of resolution methods
+        resolution_date (STRING): Date resolved
+
+    Author: Taylor Perkins
+    """
+    customer = models.ForeignKey(Customer)
+    order = models.ForeignKey(Order)
+    employee = models.ForeignKey(Employee)
+    description = models.CharField(max_length=200)
+    create_date = models.DateField(max_length=20)
+    resolution = models.CharField(null=True, max_length=200)
+    resolution_date = models.DateField(max_length=20, null=True)
+

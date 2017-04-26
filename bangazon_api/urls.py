@@ -14,6 +14,7 @@ router.register(r'department', views.DepartmentViewSet)
 router.register(r'employee', views.EmployeeViewSet)
 router.register(r'training', views.TrainingViewSet)
 router.register(r'computer', views.ComputerViewSet)
+router.register(r'supportticket', views.SupportTicketViewSet)
 
 
 # Wire up our API using automatic URL routing.
