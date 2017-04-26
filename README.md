@@ -40,12 +40,7 @@ cd bangazon_orientation_api
 ```
 Setting up the database:
 ```
-find . -path "*/migrations/*.py" -not -name "__init__.py" -delete
-find . -path "*/migrations/*.pyc"  -delete
-rm db.sqlite3
-python manage.py makemigrations api
-python manage.py migrate
-python manage.py loaddata customer.json producttype.json paymenttype.json product.json order.json department.json employee.json computer.json training.json 
+./damnit_django.sh 
 ```
 Run project in browser:
 
