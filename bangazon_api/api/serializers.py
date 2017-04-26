@@ -36,7 +36,7 @@ class GroupSerializer(serializers.HyperlinkedModelSerializer):
 
 class CustomerSerializer(serializers.HyperlinkedModelSerializer):
     '''
-    Class included in REST framework setup.
+    Class to expose the Customer table to the api
 
     Arguments:
     A hyperlink.

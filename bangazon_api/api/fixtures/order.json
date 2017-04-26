@@ -3,80 +3,80 @@
     "model": "api.Order",
     "pk": 1,
     "fields": {
-      "PaymentTypeId": 1,
-      "CustomerId": 1
+      "payment_type": 1,
+      "customer": 1
     }
   },
   {
     "model": "api.Order",
     "pk": 2,
     "fields": {
-      "PaymentTypeId": 2,
-      "CustomerId": 2
+      "payment_type": 2,
+      "customer": 2
     }
   },
   {
     "model": "api.Order",
     "pk": 3,
     "fields": {
-      "PaymentTypeId": 3,
-      "CustomerId": 3
+      "payment_type": 3,
+      "customer": 3
     }
   },
   {
     "model": "api.Order",
     "pk": 4,
     "fields": {
-      "PaymentTypeId": 4,
-      "CustomerId": 4
+      "payment_type": 4,
+      "customer": 4
     }
   },
   {
     "model": "api.Order",
     "pk": 5,
     "fields": {
-      "PaymentTypeId": 5,
-      "CustomerId": 5
+      "payment_type": 5,
+      "customer": 5
     }
   },
   {
     "model": "api.Order",
     "pk": 6,
     "fields": {
-      "PaymentTypeId": 6,
-      "CustomerId": 6
+      "payment_type": 6,
+      "customer": 6
     }
   },
   {
     "model": "api.Order",
     "pk": 7,
     "fields": {
-      "PaymentTypeId": 7,
-      "CustomerId": 7
+      "payment_type": 7,
+      "customer": 7
     }
   },
   {
     "model": "api.Order",
     "pk": 8,
     "fields": {
-      "PaymentTypeId": 8,
-      "CustomerId": 8
+      "payment_type": 8,
+      "customer": 8
     }
   },
   {
     "model": "api.Order",
     "pk": 9,
     "fields": {
-      "PaymentTypeId": 9,
-      "CustomerId": 9
+      "payment_type": 9,
+      "customer": 9
     }
   },
   {
     "model": "api.Order",
     "pk": 10,
     "fields": {
-      "PaymentTypeId": 10,
-      "CustomerId": 10
+      "payment_type": 10,
+      "customer": 10
     }
   }
 ]

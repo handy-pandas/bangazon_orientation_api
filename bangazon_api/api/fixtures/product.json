@@ -3,110 +3,110 @@
      "model": "api.Product",
      "pk": 1,
      "fields": {
-       "ProductTypeId": 1,
-       "CustomerId": 1,
-       "Title": "Large bag of gummy bears",
-       "Description": "A bag of gummy bears to share with friends",
-       "Price": 5.99
+       "product_type": 1,
+       "customer": 1,
+       "title": "Large bag of gummy bears",
+       "description": "A bag of gummy bears to share with friends",
+       "price": 5.99
      }
    },
    {
      "model": "api.Product",
      "pk": 2,
      "fields": {
-       "ProductTypeId": 2,
-       "CustomerId": 2,
-       "Title": "Medium bag of gummy bears",
-       "Description": "A medium bag of gummy bears",
-       "Price": 4.99
+       "product_type": 2,
+       "customer": 2,
+       "title": "Medium bag of gummy bears",
+       "description": "A medium bag of gummy bears",
+       "price": 4.99
      }
    },
    {
      "model": "api.Product",
      "pk": 3,
      "fields": {
-       "ProductTypeId": 3,
-       "CustomerId": 3,
-       "Title": "Small bag of gummy bears",
-       "Description": "Personal size bag of gummy bears",
-       "Price": 3.99
+       "product_type": 3,
+       "customer": 3,
+       "title": "Small bag of gummy bears",
+       "description": "Personal size bag of gummy bears",
+       "price": 3.99
      }
    },
    {
      "model": "api.Product",
      "pk": 4,
      "fields": {
-       "ProductTypeId": 4,
-       "CustomerId": 4,
-       "Title": "Large bag of gum balls",
-       "Description": "A bag of gum balls to share with friends",
-       "Price": 4.99
+       "product_type": 4,
+       "customer": 4,
+       "title": "Large bag of gum balls",
+       "description": "A bag of gum balls to share with friends",
+       "price": 4.99
      }
    },
    {
      "model": "api.Product",
      "pk": 5,
      "fields": {
-       "ProductTypeId": 5,
-       "CustomerId": 5,
-       "Title": "Medium bag of gum balls",
-       "Description": "A medium bag of gum balls",
-       "Price": 3.99
+       "product_type": 5,
+       "customer": 5,
+       "title": "Medium bag of gum balls",
+       "description": "A medium bag of gum balls",
+       "price": 3.99
      }
    },
    {
      "model": "api.Product",
      "pk": 6,
      "fields": {
-       "ProductTypeId": 6,
-       "CustomerId": 6,
-       "Title": "Small bag of gum balls",
-       "Description": "A medium bag of gum balls",
-       "Price": 2.99
+       "product_type": 6,
+       "customer": 6,
+       "title": "Small bag of gum balls",
+       "description": "A medium bag of gum balls",
+       "price": 2.99
      }
    },
    {
      "model": "api.Product",
      "pk": 7,
      "fields": {
-       "ProductTypeId": 7,
-       "CustomerId": 7,
-       "Title": "Large bag of lollipops",
-       "Description": "A bag of lollipops to share with friends",
-       "Price": 8.99
+       "product_type": 7,
+       "customer": 7,
+       "title": "Large bag of lollipops",
+       "description": "A bag of lollipops to share with friends",
+       "price": 8.99
      }
    },
    {
      "model": "api.Product",
      "pk": 8,
      "fields": {
-       "ProductTypeId": 8,
-       "CustomerId": 8,
-       "Title": "Medium bag of lollipops",
-       "Description": "A medium bag of lollipops",
-       "Price": 5.99
+       "product_type": 8,
+       "customer": 8,
+       "title": "Medium bag of lollipops",
+       "description": "A medium bag of lollipops",
+       "price": 5.99
      }
    },
    {
      "model": "api.Product",
      "pk": 9,
      "fields": {
-       "ProductTypeId": 9,
-       "CustomerId": 9,
-       "Title": "Small bag of gum balls",
-       "Description": "A small bag of gum balls",
-       "Price": 3.99
+       "product_type": 9,
+       "customer": 9,
+       "title": "Small bag of gum balls",
+       "description": "A small bag of gum balls",
+       "price": 3.99
      }
    },
    {
      "model": "api.Product",
      "pk": 10,
      "fields": {
-       "ProductTypeId": 10,
-       "CustomerId": 10,
-       "Title": "Large bag of chocolate kisses",
-       "Description": "A bag of chocolate kisses to share with friends",
-       "Price": 4.99
+       "product_type": 10,
+       "customer": 10,
+       "title": "Large bag of chocolate kisses",
+       "description": "A bag of chocolate kisses to share with friends",
+       "price": 4.99
      }
    }
  ]

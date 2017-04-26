@@ -3,100 +3,100 @@
     "model": "api.Employee",
     "pk": 1,
     "fields": {
-      "FirstName": "Paul",
-      "LastName": "Jones",
-      "Title": "System Administrators",
-      "DepartmentId": 1
+      "first_name": "Paul",
+      "last_name": "Jones",
+      "title": "System Administrators",
+      "department": 1
     }
   },
   {
     "model": "api.Employee",
     "pk": 2,
     "fields": {
-      "FirstName": "Paul",
-      "LastName": "Smith",
-      "Title": "System Administrators",
-      "DepartmentId": 1
+      "first_name": "Paul",
+      "last_name": "Smith",
+      "title": "System Administrators",
+      "department": 1
     }
   },
   {
     "model": "api.Employee",
     "pk": 3,
     "fields": {
-      "FirstName": "Paul",
-      "LastName": "Johnson",
-      "Title": "System Administrators",
-      "DepartmentId": 1
+      "first_name": "Paul",
+      "last_name": "Johnson",
+      "title": "System Administrators",
+      "department": 1
     }
   },
   {
     "model": "api.Employee",
     "pk": 4,
     "fields": {
-      "FirstName": "Paul",
-      "LastName": "Lennon",
-      "Title": "System Administrators",
-      "DepartmentId": 1
+      "first_name": "Paul",
+      "last_name": "Lennon",
+      "title": "System Administrators",
+      "department": 1
     }
   },
   {
     "model": "api.Employee",
     "pk": 5,
     "fields": {
-      "FirstName": "Paul",
-      "LastName": "Williams",
-      "Title": "System Administrators",
-      "DepartmentId": 1
+      "first_name": "Paul",
+      "last_name": "Williams",
+      "title": "System Administrators",
+      "department": 1
     }
   },
   {
     "model": "api.Employee",
     "pk": 6,
     "fields": {
-      "FirstName": "Paul",
-      "LastName": "Zeiler",
-      "Title": "System Administrators",
-      "DepartmentId": 1
+      "first_name": "Paul",
+      "last_name": "Zeiler",
+      "title": "System Administrators",
+      "department": 1
     }
   },
   {
     "model": "api.Employee",
     "pk": 7,
     "fields": {
-      "FirstName": "Paul",
-      "LastName": "Richvalsky",
-      "Title": "System Administrators",
-      "DepartmentId": 1
+      "first_name": "Paul",
+      "last_name": "Richvalsky",
+      "title": "System Administrators",
+      "department": 1
     }
   },
   {
     "model": "api.Employee",
     "pk": 8,
     "fields": {
-      "FirstName": "Paul",
-      "LastName": "Adams",
-      "Title": "System Administrators",
-      "DepartmentId": 1
+      "first_name": "Paul",
+      "last_name": "Adams",
+      "title": "System Administrators",
+      "department": 1
     }
   },
   {
     "model": "api.Employee",
     "pk": 9,
     "fields": {
-      "FirstName": "Paul",
-      "LastName": "Baker",
-      "Title": "System Administrators",
-      "DepartmentId": 1
+      "first_name": "Paul",
+      "last_name": "Baker",
+      "title": "System Administrators",
+      "department": 1
     }
   },
   {
     "model": "api.Employee",
     "pk": 10,
     "fields": {
-      "FirstName": "Paul",
-      "LastName": "Chapman",
-      "Title": "System Administrators",
-      "DepartmentId": 1
+      "first_name": "Paul",
+      "last_name": "Chapman",
+      "title": "System Administrators",
+      "department": 1
     }
   }
 ]
