@@ -98,16 +98,16 @@ class Employee(models.Model):
 
 
 class Training(models.Model):
-	"""Class for adding training program to the database
+    """Class for adding training program to the database
 
-	Methods:
+    Methods:
 
-	Author: Aaron Barfoot
-	"""
-	title = models.CharField(max_length=55)
-	start_date = models.DateField(max_length=10)
-	end_date = models.DateField(max_length=10)
-	max_attendance = models.IntegerField()
+    Author: Aaron Barfoot
+    """
+    title = models.CharField(max_length=55)
+    start_date = models.DateField(max_length=10)
+    end_date = models.DateField(max_length=10)
+    max_attendance = models.IntegerField()
 
 
 class EmployeeTraining(models.Model):
@@ -128,7 +128,20 @@ class Computer(models.Model):
     """ Class to expose the computers to the API.
 
     Author: James Tonkin
-    """
-    employee = models.ForeignKey(Employee)
+    """    
     purchase_date = models.DateField(max_length=20)
     decom_date = models.DateField(max_length=20)
+
+class EmployeeComputer(models.Model):
+    """This class represents a join table between employees and computers within bangazon
+        company. You will need both Computer and Employee tables created before creating this table.
+
+    Attributes:
+        computer (TYPE): Table Name
+        employee (TYPE): Table Name
+
+    Author: Taylor Perkins
+    """
+    employee = models.ForeignKey(Employee)
+    computer = models.ForeignKey(Computer)
+

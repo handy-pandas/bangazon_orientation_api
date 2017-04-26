@@ -3,4 +3,4 @@ find . -path "/bangazon_api/api/migrations/*.pyc"  -delete; #deletes all of the 
 rm db.sqlite3; #deletes the database file.
 python manage.py makemigrations api; #creates the migration.
 python manage.py migrate; #runs the migration.  This will delete all of the data in your database.
-python manage.py loaddata customer.json producttype.json paymenttype.json product.json order.json department.json employee.json computer.json training.json #loads the data from each .json file in sequential order.
+python manage.py loaddata customer.json producttype.json paymenttype.json product.json order.json department.json employee.json computer.json training.json employeecomputer.json #loads the data from each .json file in sequential order.
