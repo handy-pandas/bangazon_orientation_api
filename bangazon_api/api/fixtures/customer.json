@@ -3,110 +3,110 @@
     "model": "api.Customer",
     "pk": 1,
     "fields": {
-      "FirstName": "John",
-      "LastName": "Lennon",
-      "JoinDate": "2007-03-28",
-      "InactiveDate": "2027-03-28",
-      "Inactive": 0
+      "first_name": "John",
+      "last_name": "Lennon",
+      "join_date": "2007-03-28",
+      "inactive_date": "2027-03-28",
+      "inactive": 0
     }
   },
   {
     "model": "api.Customer",
     "pk": 2,
     "fields": {
-      "FirstName": "John",
-      "LastName": "Smith",
-      "JoinDate": "2007-03-28",
-      "InactiveDate": "2027-03-28",
-      "Inactive": 0
+      "first_name": "John",
+      "last_name": "Smith",
+      "join_date": "2007-03-28",
+      "inactive_date": "2027-03-28",
+      "inactive": 0
     }
   },
   {
     "model": "api.Customer",
     "pk": 3,
     "fields": {
-      "FirstName": "John",
-      "LastName": "Jones",
-      "JoinDate": "2007-03-28",
-      "InactiveDate": "2027-03-28",
-      "Inactive": 0
+      "first_name": "John",
+      "last_name": "Jones",
+      "join_date": "2007-03-28",
+      "inactive_date": "2027-03-28",
+      "inactive": 0
     }
   },
   {
     "model": "api.Customer",
     "pk": 4,
     "fields": {
-      "FirstName": "John",
-      "LastName": "Johnson",
-      "JoinDate": "2007-03-28",
-      "InactiveDate": "2027-03-28",
-      "Inactive": 0
+      "first_name": "John",
+      "last_name": "Johnson",
+      "join_date": "2007-03-28",
+      "inactive_date": "2027-03-28",
+      "inactive": 0
     }
   },
   {
     "model": "api.Customer",
     "pk": 5,
     "fields": {
-      "FirstName": "John",
-      "LastName": "Williams",
-      "JoinDate": "2007-03-28",
-      "InactiveDate": "2027-03-28",
-      "Inactive": 0
+      "first_name": "John",
+      "last_name": "Williams",
+      "join_date": "2007-03-28",
+      "inactive_date": "2027-03-28",
+      "inactive": 0
     }
   },
   {
     "model": "api.Customer",
     "pk": 6,
     "fields": {
-      "FirstName": "John",
-      "LastName": "Lucas",
-      "JoinDate": "2007-03-28",
-      "InactiveDate": "2027-03-28",
-      "Inactive": 0
+      "first_name": "John",
+      "last_name": "Lucas",
+      "join_date": "2007-03-28",
+      "inactive_date": "2027-03-28",
+      "inactive": 0
     }
   },
   {
     "model": "api.Customer",
     "pk": 7,
     "fields": {
-      "FirstName": "John",
-      "LastName": "Skywalker",
-      "JoinDate": "2007-03-28",
-      "InactiveDate": "2027-03-28",
-      "Inactive": 0
+      "first_name": "John",
+      "last_name": "Skywalker",
+      "join_date": "2007-03-28",
+      "inactive_date": "2027-03-28",
+      "inactive": 0
     }
   },
   {
     "model": "api.Customer",
     "pk": 8,
     "fields": {
-      "FirstName": "John",
-      "LastName": "Vader",
-      "JoinDate": "2007-03-28",
-      "InactiveDate": "2027-03-28",
-      "Inactive": 0
+      "first_name": "John",
+      "last_name": "Vader",
+      "join_date": "2007-03-28",
+      "inactive_date": "2027-03-28",
+      "inactive": 0
     }
   },
   {
     "model": "api.Customer",
     "pk": 9,
     "fields": {
-      "FirstName": "John",
-      "LastName": "Solo",
-      "JoinDate": "2007-03-28",
-      "InactiveDate": "2027-03-28",
-      "Inactive": 0
+      "first_name": "John",
+      "last_name": "Solo",
+      "join_date": "2007-03-28",
+      "inactive_date": "2027-03-28",
+      "inactive": 0
     }
   },
   {
     "model": "api.Customer",
     "pk": 10,
     "fields": {
-      "FirstName": "John",
-      "LastName": "Kenobi",
-      "JoinDate": "2007-03-28",
-      "InactiveDate": "2027-03-28",
-      "Inactive": 1
+      "first_name": "John",
+      "last_name": "Kenobi",
+      "join_date": "2007-03-28",
+      "inactive_date": "2027-03-28",
+      "inactive": 1
     }
   }
 ]

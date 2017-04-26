@@ -3,100 +3,100 @@
      "model": "api.Training",
      "pk": 1,
      "fields": {
-       "Title": "Anger Management Seminar",
-       "StartDate": "2017-04-11",
-       "EndDate": "2017-04-26",
-       "Max": 50
+       "title": "Anger Management Seminar",
+       "start_date": "2017-04-11",
+       "end_date": "2017-04-26",
+       "max_attendance": 50
      }
    },
    {
      "model": "api.Training",
      "pk": 2,
      "fields": {
-       "Title": "Dating in the workplace Seminar",
-       "StartDate": "2017-04-22",
-       "EndDate": "2017-04-28",
-       "Max": 50
+       "title": "Dating in the workplace Seminar",
+       "start_date": "2017-04-22",
+       "end_date": "2017-04-28",
+       "max_attendance": 50
      }
    },
    {
      "model": "api.Training",
      "pk": 3,
      "fields": {
-       "Title": "How to type Seminar",
-       "StartDate": "2017-04-26",
-       "EndDate": "2017-04-28",
-       "Max": 50
+       "title": "How to type Seminar",
+       "start_date": "2017-04-26",
+       "end_date": "2017-04-28",
+       "max_attendance": 50
      }
    },
    {
      "model": "api.Training",
      "pk": 4,
      "fields": {
-       "Title": "Defensive Driving Seminar",
-       "StartDate": "2017-04-26",
-       "EndDate": "2017-04-27",
-       "Max": 50
+       "title": "Defensive Driving Seminar",
+       "start_date": "2017-04-26",
+       "end_date": "2017-04-27",
+       "max_attendance": 50
      }
    },
    {
      "model": "api.Training",
      "pk": 5,
      "fields": {
-       "Title": "Django REST Framework Seminar",
-       "StartDate": "2017-04-16",
-       "EndDate": "2017-04-29",
-       "Max": 50
+       "title": "Django REST Framework Seminar",
+       "start_date": "2017-04-16",
+       "end_date": "2017-04-29",
+       "max_attendance": 50
      }
    },
    {
      "model": "api.Training",
      "pk": 6,
      "fields": {
-       "Title": "Happiness Management Seminar",
-       "StartDate": "2017-04-11",
-       "EndDate": "2017-04-26",
-       "Max": 50
+       "title": "Happiness Management Seminar",
+       "start_date": "2017-04-11",
+       "end_date": "2017-04-26",
+       "max_attendance": 50
      }
    },
    {
      "model": "api.Training",
      "pk": 7,
      "fields": {
-       "Title": "How to Angular",
-       "StartDate": "2017-04-26",
-       "EndDate": "2017-04-26",
-       "Max": 50
+       "title": "How to Angular",
+       "start_date": "2017-04-26",
+       "end_date": "2017-04-26",
+       "max_attendance": 50
      }
    },
    {
      "model": "api.Training",
      "pk": 8,
      "fields": {
-       "Title": "How to Jquery",
-       "StartDate": "2017-04-26",
-       "EndDate": "2017-04-28",
-       "Max": 50
+       "title": "How to Jquery",
+       "start_date": "2017-04-26",
+       "end_date": "2017-04-28",
+       "max_attendance": 50
      }
    },
    {
      "model": "api.Training",
      "pk": 9,
      "fields": {
-       "Title": "How to CSS",
-       "StartDate": "2017-04-26",
-       "EndDate": "2017-04-30",
-       "Max": 50
+       "title": "How to CSS",
+       "start_date": "2017-04-26",
+       "end_date": "2017-04-30",
+       "max_attendance": 50
      }
    },
    {
      "model": "api.Training",
      "pk": 10,
      "fields": {
-       "Title": "How to Python",
-       "StartDate": "2017-04-01",
-       "EndDate": "2017-04-04",
-       "Max": "50"
+       "title": "How to Python",
+       "start_date": "2017-04-01",
+       "end_date": "2017-04-04",
+       "max_attendance": "50"
      }
    }
  ]

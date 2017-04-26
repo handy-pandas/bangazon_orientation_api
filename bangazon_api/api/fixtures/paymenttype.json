@@ -3,90 +3,90 @@
     "model": "api.PaymentType",
     "pk": 1,
     "fields": {
-    "Name": "Visa",
-    "AccountNumber": 1234,
-    "CustomerId": 1
+    "name": "Visa",
+    "account_number": 1234,
+    "customer": 1
     }
   },
   {
     "model": "api.PaymentType",
     "pk": 2,
     "fields": {
-    "Name": "Cash",
-    "AccountNumber": 2345,
-    "CustomerId": 10
+    "name": "Cash",
+    "account_number": 2345,
+    "customer": 10
     }
   },
   {
     "model": "api.PaymentType",
     "pk": 3,
     "fields": {
-    "Name": "Visa",
-    "AccountNumber": 3456,
-    "CustomerId": 1
+    "name": "Visa",
+    "account_number": 3456,
+    "customer": 1
     }
   },
   {
     "model": "api.PaymentType",
     "pk": 4,
     "fields": {
-    "Name": "Bitcoin",
-    "AccountNumber": 4567,
-    "CustomerId": 8
+    "name": "Bitcoin",
+    "account_number": 4567,
+    "customer": 8
     }
   },
   {
     "model": "api.PaymentType",
     "pk": 5,
     "fields": {
-    "Name": "Barter",
-    "AccountNumber": 5678,
-    "CustomerId": 5
+    "name": "Barter",
+    "account_number": 5678,
+    "customer": 5
     }
   },
   {
     "model": "api.PaymentType",
     "pk": 6,
     "fields": {
-    "Name": "MasterCard",
-    "AccountNumber": 6789,
-    "CustomerId": 2
+    "name": "MasterCard",
+    "account_number": 6789,
+    "customer": 2
     }
   },
   {
     "model": "api.PaymentType",
     "pk": 7,
     "fields": {
-    "Name": "Visa",
-    "AccountNumber": 7890,
-    "CustomerId": 3
+    "name": "Visa",
+    "account_number": 7890,
+    "customer": 3
     }
   },
   {
     "model": "api.PaymentType",
     "pk": 8,
     "fields": {
-    "Name": "Visa",
-    "AccountNumber": 1023,
-    "CustomerId": 9
+    "name": "Visa",
+    "account_number": 1023,
+    "customer": 9
     }
   },
   {
     "model": "api.PaymentType",
     "pk": 9,
     "fields": {
-    "Name": "ApplePay",
-    "AccountNumber": 1123,
-    "CustomerId": 4
+    "name": "ApplePay",
+    "account_number": 1123,
+    "customer": 4
     }
   },
   {
     "model": "api.PaymentType",
     "pk": 10,
     "fields": {
-    "Name": "Diner's Club",
-    "AccountNumber": 1345,
-    "CustomerId": 2
+    "name": "Diner's Club",
+    "account_number": 1345,
+    "customer": 2
     }
   }
 ]

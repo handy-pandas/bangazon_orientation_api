@@ -3,90 +3,90 @@
     "model": "api.Computer",
     "pk": 1,
     "fields": {
-      "EmployeeId": 1,
-      "PurchaseDate": "2016-04-01",
-      "DecomDate": "2019-04-01"
+      "employee": 1,
+      "purchase_date": "2016-04-01",
+      "decom_date": "2019-04-01"
     }
   },
   {
     "model": "api.Computer",
     "pk": 2,
     "fields": {
-      "EmployeeId": 2,
-      "PurchaseDate": "2016-04-01",
-      "DecomDate": "2019-04-01"
+      "employee": 2,
+      "purchase_date": "2016-04-01",
+      "decom_date": "2019-04-01"
     }
   },
   {
     "model": "api.Computer",
     "pk": 3,
     "fields": {
-      "EmployeeId": 3,
-      "PurchaseDate": "2016-04-01",
-      "DecomDate": "2019-04-01"
+      "employee": 3,
+      "purchase_date": "2016-04-01",
+      "decom_date": "2019-04-01"
     }
   },
   {
     "model": "api.Computer",
     "pk": 4,
     "fields": {
-      "EmployeeId": 4,
-      "PurchaseDate": "2016-04-01",
-      "DecomDate": "2019-04-01"
+      "employee": 4,
+      "purchase_date": "2016-04-01",
+      "decom_date": "2019-04-01"
     }
   },
   {
     "model": "api.Computer",
     "pk": 5,
     "fields": {
-      "EmployeeId": 5,
-      "PurchaseDate": "2016-04-01",
-      "DecomDate": "2019-04-01"
+      "employee": 5,
+      "purchase_date": "2016-04-01",
+      "decom_date": "2019-04-01"
     }
   },
   {
     "model": "api.Computer",
     "pk": 6,
     "fields": {
-      "EmployeeId": 6,
-      "PurchaseDate": "2016-04-01",
-      "DecomDate": "2019-04-01"
+      "employee": 6,
+      "purchase_date": "2016-04-01",
+      "decom_date": "2019-04-01"
     }
   },
   {
     "model": "api.Computer",
     "pk": 7,
     "fields": {
-      "EmployeeId": 7,
-      "PurchaseDate": "2016-04-01",
-      "DecomDate": "2019-04-01"
+      "employee": 7,
+      "purchase_date": "2016-04-01",
+      "decom_date": "2019-04-01"
     }
   },
   {
     "model": "api.Computer",
     "pk": 8,
     "fields": {
-      "EmployeeId": 8,
-      "PurchaseDate": "2016-04-01",
-      "DecomDate": "2019-04-01"
+      "employee": 8,
+      "purchase_date": "2016-04-01",
+      "decom_date": "2019-04-01"
     }
   },
   {
     "model": "api.Computer",
     "pk": 9,
     "fields": {
-      "EmployeeId": 9,
-      "PurchaseDate": "2016-04-01",
-      "DecomDate": "2019-04-01"
+      "employee": 9,
+      "purchase_date": "2016-04-01",
+      "decom_date": "2019-04-01"
     }
   },
   {
     "model": "api.Computer",
     "pk": 10,
     "fields": {
-      "EmployeeId": 10,
-      "PurchaseDate": "2016-04-01",
-      "DecomDate": "2019-04-01"
+      "employee": 10,
+      "purchase_date": "2016-04-01",
+      "decom_date": "2019-04-01"
     }
   }
 ]

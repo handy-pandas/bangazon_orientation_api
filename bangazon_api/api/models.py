@@ -6,17 +6,17 @@ class Customer(models.Model):
     Methods:
     Author: Talbot Lawrence
     """
-    FirstName = models.CharField(max_length=44)
-    LastName = models.CharField(max_length=44)
-    JoinDate = models.DateField(max_length=20)
-    InactiveDate = models.DateField(max_length=20)
-    Inactive = models.IntegerField()
+    first_name = models.CharField(max_length=44)
+    last_name = models.CharField(max_length=44)
+    join_date = models.DateField(max_length=20)
+    inactive_date = models.DateField(max_length=20)
+    inactive = models.IntegerField()
 
 class ProductType(models.Model):
     """ Class to expose the product types to the API.
     Author: James Tonkin
     """
-    Name = models.CharField(max_length=255)
+    name = models.CharField(max_length=255)
 
 
 class PaymentType(models.Model):
@@ -27,9 +27,9 @@ class PaymentType(models.Model):
     Author:
     wocaldwell
     '''
-    AccountNumber = models.IntegerField()
-    Name = models.CharField(max_length=255)
-    CustomerId = models.ForeignKey(Customer)
+    account_number = models.IntegerField()
+    name = models.CharField(max_length=255)
+    customer = models.ForeignKey(Customer)
 
 
 class Product(models.Model):
@@ -39,11 +39,11 @@ class Product(models.Model):
     Author: Aaron Barfoot
 
     """
-    ProductTypeId = models.ForeignKey(ProductType)
-    CustomerId = models.ForeignKey(Customer)
-    Title = models.CharField(max_length=55)
-    Description = models.CharField(max_length=150)
-    Price = models.DecimalField(max_digits=6, decimal_places=2)
+    product_type = models.ForeignKey(ProductType)
+    customer = models.ForeignKey(Customer)
+    title = models.CharField(max_length=55)
+    description = models.CharField(max_length=150)
+    price = models.DecimalField(max_digits=6, decimal_places=2)
 
 class Order(models.Model):
     """This class defines what bangazon's Order table within the database will look like
@@ -53,8 +53,8 @@ class Order(models.Model):
         CustomerId (INT): Customer Id referencing Customer table (FK)
     Author: Taylor Perkins
     """
-    PaymentTypeId = models.ForeignKey(PaymentType)
-    CustomerId = models.ForeignKey(Customer)
+    payment_type = models.ForeignKey(PaymentType)
+    customer = models.ForeignKey(Customer)
 
 class ProductOrder(models.Model):
     """This class is a join table for both the Product and Order Table within Bangazon db
@@ -65,8 +65,8 @@ class ProductOrder(models.Model):
     Author: Taylor Perkins
     """
 
-    ProductId = models.ForeignKey(Product)
-    OrderId = models.ForeignKey(Order)
+    product = models.ForeignKey(Product)
+    order = models.ForeignKey(Order)
 
 
 class Department(models.Model):
@@ -80,8 +80,8 @@ class Department(models.Model):
     Author:
     wocaldwell
     """
-    Name = models.CharField(max_length=55)
-    Budget = models.DecimalField(max_digits=6, decimal_places=2)
+    name = models.CharField(max_length=55)
+    budget = models.DecimalField(max_digits=6, decimal_places=2)
 
 class Employee(models.Model):
     """Class designed for creating employees within database
@@ -91,10 +91,10 @@ class Employee(models.Model):
 
     Author: Talbot Lawrence
     """
-    FirstName = models.CharField(max_length=44)
-    LastName = models.CharField(max_length=44)
-    Title = models.CharField(max_length=44)
-    DepartmentId = models.ForeignKey(Department)
+    first_name = models.CharField(max_length=44)
+    last_name = models.CharField(max_length=44)
+    title = models.CharField(max_length=44)
+    department = models.ForeignKey(Department)
 
 
 class Training(models.Model):
@@ -104,10 +104,10 @@ class Training(models.Model):
 
 	Author: Aaron Barfoot
 	"""
-	Title = models.CharField(max_length=55)
-	StartDate = models.DateField(max_length=10)
-	EndDate = models.DateField(max_length=10)
-	Max = models.IntegerField()
+	title = models.CharField(max_length=55)
+	start_date = models.DateField(max_length=10)
+	end_date = models.DateField(max_length=10)
+	max_attendance = models.IntegerField()
 
 
 class EmployeeTraining(models.Model):
@@ -115,13 +115,13 @@ class EmployeeTraining(models.Model):
         You will need both the Employee and Training tables created for this table to apply
 
     Attributes:
-        EmployeeId (INT): Employee Id referencing Employee table (FK)
-        TrainingId (INT): Training Id referencing Training table (FK)
+        employee (INT): Employee Id referencing Employee table (FK)
+        training (INT): Training Id referencing Training table (FK)
 
     Author: Aaron Barfoot
     """
-    EmployeeId = models.ForeignKey(Employee)
-    TrainingId = models.ForeignKey(Training)
+    employee = models.ForeignKey(Employee)
+    training = models.ForeignKey(Training)
 
 
 class Computer(models.Model):
@@ -129,6 +129,6 @@ class Computer(models.Model):
 
     Author: James Tonkin
     """
-    EmployeeId = models.ForeignKey(Employee)
-    PurchaseDate = models.DateField(max_length=20)
-    DecomDate = models.DateField(max_length=20)
+    employee = models.ForeignKey(Employee)
+    purchase_date = models.DateField(max_length=20)
+    decom_date = models.DateField(max_length=20)
