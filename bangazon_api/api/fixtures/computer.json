@@ -2,8 +2,7 @@
   {
     "model": "api.Computer",
     "pk": 1,
-    "fields": {
-      "employee": 1,
+    "fields": {      
       "purchase_date": "2016-04-01",
       "decom_date": "2019-04-01"
     }
@@ -11,8 +10,7 @@
   {
     "model": "api.Computer",
     "pk": 2,
-    "fields": {
-      "employee": 2,
+    "fields": {      
       "purchase_date": "2016-04-01",
       "decom_date": "2019-04-01"
     }
@@ -20,8 +18,7 @@
   {
     "model": "api.Computer",
     "pk": 3,
-    "fields": {
-      "employee": 3,
+    "fields": {      
       "purchase_date": "2016-04-01",
       "decom_date": "2019-04-01"
     }
@@ -29,8 +26,7 @@
   {
     "model": "api.Computer",
     "pk": 4,
-    "fields": {
-      "employee": 4,
+    "fields": {      
       "purchase_date": "2016-04-01",
       "decom_date": "2019-04-01"
     }
@@ -38,8 +34,7 @@
   {
     "model": "api.Computer",
     "pk": 5,
-    "fields": {
-      "employee": 5,
+    "fields": {      
       "purchase_date": "2016-04-01",
       "decom_date": "2019-04-01"
     }
@@ -47,8 +42,7 @@
   {
     "model": "api.Computer",
     "pk": 6,
-    "fields": {
-      "employee": 6,
+    "fields": {      
       "purchase_date": "2016-04-01",
       "decom_date": "2019-04-01"
     }
@@ -56,8 +50,7 @@
   {
     "model": "api.Computer",
     "pk": 7,
-    "fields": {
-      "employee": 7,
+    "fields": {      
       "purchase_date": "2016-04-01",
       "decom_date": "2019-04-01"
     }
@@ -65,8 +58,7 @@
   {
     "model": "api.Computer",
     "pk": 8,
-    "fields": {
-      "employee": 8,
+    "fields": {      
       "purchase_date": "2016-04-01",
       "decom_date": "2019-04-01"
     }
@@ -74,8 +66,7 @@
   {
     "model": "api.Computer",
     "pk": 9,
-    "fields": {
-      "employee": 9,
+    "fields": {      
       "purchase_date": "2016-04-01",
       "decom_date": "2019-04-01"
     }
@@ -83,8 +74,7 @@
   {
     "model": "api.Computer",
     "pk": 10,
-    "fields": {
-      "employee": 10,
+    "fields": {      
       "purchase_date": "2016-04-01",
       "decom_date": "2019-04-01"
     }
