@@ -147,7 +147,7 @@ class EmployeeComputer(models.Model):
 
 class SupportTicket(models.Model):
     """Class designed for creating customers within database
-    
+
     Attributes:
         customer (INT): Table Name
         order (INT): Table Name
@@ -160,8 +160,7 @@ class SupportTicket(models.Model):
     Author: Taylor Perkins
     """
     customer = models.ForeignKey(Customer)
-    order = models.ForeignKey(Order)
-    employee = models.ForeignKey(Employee)
+    order = models.ForeignKey(Order)    
     description = models.CharField(max_length=200)
     create_date = models.DateField(max_length=20)
     resolution = models.CharField(null=True, max_length=200)
